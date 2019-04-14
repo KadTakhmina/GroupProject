@@ -12,6 +12,7 @@ class App extends Component {
         <Header/>
         <StickyHeader/>
         <Carousel/>
+        <h1>Hi everyone!!!</h1>
         
       </div>
     );
