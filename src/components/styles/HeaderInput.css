@@ -1,0 +1,6 @@
+.HeaderInput input {
+  width: 300px;
+  height: 2em;
+  background: var(--main-color);
+  color: #fff;
+}
