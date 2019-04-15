@@ -1,0 +1,34 @@
+.RaitingPlace{
+  text-align: start;
+  padding-left: 25%;
+}
+.place-rating-block span {
+  color: #3498DB;
+  padding-right: 10px;
+}
+.place-rating-block .choosen {
+  height: 10px;
+  width: 18px;
+  background: #3498DB;
+  color: white;
+  border-radius: 3px;
+  padding: 3px;
+}
+.RaitingStar {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.place-rating-block .comment-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.place-rating-block .comment-block .comment-amount {
+  color: #3498DB;
+}
+
+.place-rating-block .comment-block .comment {
+  color: #3498DB;
+  margin-top: 13px;
+  margin-left: 10px;
+}

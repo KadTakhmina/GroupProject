@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import {Header, StickyHeader, AboutPlace, ButtonsBlock, Map, SimilarPlace} from "./components";
+import  { Route } from 'react-router';
+import { BrowserRouter,Switch } from 'react-router-dom';
+import { createBrowserHistory} from 'history';
+
+
+import {SearchPage,Restaurants} from './pages';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App container">
-        <Header/>
-        <StickyHeader/>
-        <AboutPlace/>
-        <ButtonsBlock/>
-        <Map/>
-        <SimilarPlace/>
-        <Carousel/> 
+        <BrowserRouter history={createBrowserHistory()}>
+        <Switch>
+          <Route path="/" exact component={SearchPage} />
+          <Route path="/restaurants" exact component={Restaurants} />
+         
+        </Switch>
+       </BrowserRouter>
+        
       </div>
     );
   }

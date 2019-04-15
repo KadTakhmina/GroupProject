@@ -1,0 +1,20 @@
+.ButtonsBlock {
+  margin-top: 20px;
+}
+.place-button-block{
+  text-align: start;
+  padding-left: 50px;
+}
+Button {
+  margin-right: 10px;
+  width: 100px;
+}
+.user-rating-block {
+  text-align: start;
+  padding-left: 15%;
+
+}
+.user-rating-block p {
+  color: var(--main-color)
+}
+ 

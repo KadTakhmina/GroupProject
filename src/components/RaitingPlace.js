@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import RaitingStar from './RaitingStar';
 
+import './styles/var.css';
+import './styles/RaitingPlace.css';
+
+
 
 class RaitingPlace extends Component {
   render() {
     return (
-      <div className="RaitingPlace col col-lg-5">
+      <div className="RaitingPlace col col-lg-6">
          <div class = " place-rating-block">
             <p class = "place-rating"><b>Рейтинг</b></p>
             <span class = "rating-year">за год</span>

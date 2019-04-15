@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
+import  { Link } from 'react-router-dom';
 import RaitingPlace from './RaitingPlace';
+
+import './styles/var.css';
+import './styles/AboutPlace.css';
 
 class AboutPlace extends Component {
   render() {
     return (
       <div className="row AboutPlace">
-        <div class = "col col-lg-7 place-info-block">
-            <p class = "place-name"><b>Restaurans Name</b>
+        <div class = "col col-lg-6 place-info-block">
+            <div class = "place-name"><b>Restaurans Name</b>
             <br/>
             <span class = "place">Ресторан</span>
-            </p>
+            </div>
+            <br/>
           <div class = "address-block">
-              <a href = "#" class = "place-location"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></a>
+              <Link to = "/" class = "place-location"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></Link>
               <p class = "place-number"><i class="fa fa-phone"></i> Показать телефон</p>
           </div>
           <br/>
@@ -24,4 +29,6 @@ class AboutPlace extends Component {
   }
 }
 
+
 export default AboutPlace;
+
