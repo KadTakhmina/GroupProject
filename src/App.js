@@ -13,8 +13,7 @@ class App extends Component {
         <ButtonsBlock/>
         <Map/>
         <SimilarPlace/>
-
-        
+        <Carousel/> 
       </div>
     );
   }
