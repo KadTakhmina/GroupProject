@@ -28,12 +28,6 @@ class RaitingPlace extends Component {
   }
 }
 
-<<<<<<< HEAD
+
 export default RaitingPlace;
-=======
-<<<<<<< HEAD
-export default RaitingPlace;
-=======
-export default RaitingPlace;
->>>>>>> 67bcf4fd1ef1764becec94b3e0d8fdbe0918b003
->>>>>>> 5438974c0a4fc09fb33ad63cb3c231b6656d6bf1
+

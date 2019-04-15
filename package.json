@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "proj",
   "version": "0.1.0",
   "private": true,
@@ -36,45 +35,4 @@
   "author": "danizat <dbaiyshova@gmail.com>",
   "license": "MIT"
 }
-=======
-    "name": "proj",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "google-map-react": "^1.1.4",
-        "history": "^4.9.0",
-        "prop-types": "^15.7.2",
-        "react": "^16.8.6",
-        "react-bootstrap": "^1.0.0-beta.8",
-        "react-dom": "^16.8.6",
-        "react-router": "^5.0.0",
-        "react-router-dom": "^5.0.0",
 
-        "react": "^16.8.6",
-        "react-bootstrap": "^1.0.0-beta.8",
-        "react-dom": "^16.8.6",
-        "react-google-maps": "^9.4.5",
-        "react-scripts": "2.1.8"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ],
-    "main": "index.js",
-    "repository": "https://github.com/KadTakhmina/GroupProject.git",
-    "author": "danizat <dbaiyshova@gmail.com>",
-    "license": "MIT"
-}
->>>>>>> 5438974c0a4fc09fb33ad63cb3c231b6656d6bf1
