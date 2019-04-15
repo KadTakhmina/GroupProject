@@ -11,7 +11,6 @@ class Layout extends Component {
       <div className="Layout">
 			<Header/>
 			<StickyHeader/>
-	
         {this.props.children}
       </div>
     );

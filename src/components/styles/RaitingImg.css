@@ -1,0 +1,29 @@
+.RaitingImg {
+    width: 100%;
+    height: 100%;
+}
+
+.RaitingImg:hover .resultsHoverBlock {
+    display: block;
+}
+
+.RaitingImg .resultsHoverBlock {
+    position: absolute;
+    background: var(--main-color);
+    top: 70%;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    height: 50%;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+.RaitingImg .resultsHoverBlock a {
+    color: #fff;
+}
+
+.RaitingImg .resultsHoverBlock .resultsName {
+    font-weight: 600;
+    font-size: 1.5em;
+}

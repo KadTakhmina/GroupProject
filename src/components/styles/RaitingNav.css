@@ -1,0 +1,35 @@
+.RaitingNav {
+    margin: 0 0.5em;
+    height: 2.5em;
+    width: 10em;
+    background: var(--main-color);
+    color: #fff;
+    padding: auto 1.5em;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.raitingBlockArrow:hover {
+    color: blue;
+}
+
+.resultCategories {
+    display: none;
+    position: absolute;
+    background: var(--main-color);
+    width: 100%;
+    left: 0;
+    top: 98%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.raitingBlockArrow:hover~.resultCategories {
+    display: block;
+}
+
+.resultCategories span {
+    display: block;
+    padding: 0.8em;
+}

@@ -27,8 +27,4 @@ class ButtonsBlock extends Component {
   }
 }
 
-<<<<<<< HEAD
 export default ButtonsBlock;
-=======
-export default ButtonsBlock;
->>>>>>> 67bcf4fd1ef1764becec94b3e0d8fdbe0918b003

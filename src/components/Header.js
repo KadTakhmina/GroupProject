@@ -19,17 +19,12 @@ class Header extends Component {
       <div className="Header row d-flex justify-content-between align-items-center ">
         <img className = "logo col-2"
         alt ="logo"/>
-<<<<<<< HEAD
         <HeaderInput />
         <User 
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
                />
-=======
-        <HeaderInput val = {this.state.val}/>
-        <User />
->>>>>>> 67bcf4fd1ef1764becec94b3e0d8fdbe0918b003
       </div>
     );
   }
