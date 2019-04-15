@@ -16,6 +16,4 @@ class RaitingStar extends Component {
   }
 }
 
-
-
 export default RaitingStar;
