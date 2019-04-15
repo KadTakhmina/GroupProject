@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import {Header} from "./components";
-import {StickyHeader,Carousel} from './components';
+import  { Route } from 'react-router';
+import { BrowserRouter,Switch } from 'react-router-dom';
+import { createBrowserHistory} from 'history';
+
+import {SearchPage,Restaurants} from './pages';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App container">
-        <Header/>
-        <StickyHeader/>
-        <Carousel/>
-        <h1>Hi everyone!!!</h1>
+        <BrowserRouter history={createBrowserHistory()} >
+        <Switch>
+          <Route path="/" exact component={SearchPage} />
+          <Route path="/restaurants" exact component={Restaurants} />
+         
+        </Switch>
+       </BrowserRouter>
         
       </div>
     );
