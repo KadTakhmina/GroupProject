@@ -6,8 +6,6 @@ import entertainsIcon from "../img/entertains.svg"
 import servicesIcon from "../img/services.svg"
 import coursesIcon from "../img/courses.svg"
 
-
-
 class Carousel extends Component {
  
   render() {

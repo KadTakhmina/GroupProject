@@ -22,7 +22,7 @@ class StickyHeader extends Component {
                     <Link class="nav-link" to="/restaurants">Рестораны</Link>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/">Развлечения </Link>
+                    <Link class="nav-link" to="/raitings">Рейтинги(Развлечения) </Link>
                   </li>
                   <li class="nav-item">
                     <Link class="nav-link" to="/">Услуги</Link>
