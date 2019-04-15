@@ -16,8 +16,7 @@ class Header extends Component {
       <div className="Header row">
         <img className = "logo col-2"
         alt ="logo"/>
-        <HeaderInput val = {this.state.val}
-                    />
+        <HeaderInput val = {this.state.val}/>
         <User />
       </div>
     );

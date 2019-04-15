@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import {Header} from "./components";
-import {StickyHeader,Carousel} from './components';
-
+import {Header, StickyHeader, AboutPlace, ButtonsBlock, Map, SimilarPlace} from "./components";
 
 class App extends Component {
   render() {
@@ -11,7 +9,11 @@ class App extends Component {
       <div className="App container">
         <Header/>
         <StickyHeader/>
-        <Carousel/>
+        <AboutPlace/>
+        <ButtonsBlock/>
+        <Map/>
+        <SimilarPlace/>
+
         
       </div>
     );
