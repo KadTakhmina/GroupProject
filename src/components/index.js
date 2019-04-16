@@ -17,6 +17,7 @@ export {default as RaitingImg}  from "./RaitingImg";
 export {default as RaitingCard}  from "./RaitingCard";
 export {default as RaitingComments}  from "./RaitingComments";
 export {default as Description}  from "./Description";
+export {default as CommentCarousel}  from "./CommentCarousel";
 
 
 

@@ -18,8 +18,6 @@ class RaitingComments extends Component {
 				<div className = "ownerPhotoBox"><img src={comments.commenterPhoto} alt=""/></div>
 				<span className = "commentOwnerName">{`${comments.commenterName}  ${comments.commenterLastName}`}</span>
 			</div>
-	
-	
     );
   }
 }

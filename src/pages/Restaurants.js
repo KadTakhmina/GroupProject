@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import {Layout,AboutPlace, ButtonsBlock, Map, SimilarPlace} from "../components";
+import {Layout,AboutPlace, ButtonsBlock, Map, SimilarPlace,CommentCarousel} from "../components";
 
 
 class Restaurants extends Component {
@@ -12,6 +12,7 @@ class Restaurants extends Component {
 				<AboutPlace/>
         <ButtonsBlock/>
         <Map/>
+        <CommentCarousel/>
         <SimilarPlace/>
 			</Layout>
     );
