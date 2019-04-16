@@ -14,4 +14,6 @@ export {default as RaitingStar}  from "./RaitingStar";
 export {default as SimilarPlace}  from "./SimilarPlace";
 export {default as RaitingNav}  from "./RaitingNav";
 export {default as RaitingImg}  from "./RaitingImg";
+export {default as RaitingCard}  from "./RaitingCard";
+export {default as RaitingComments}  from "./RaitingComments";
 

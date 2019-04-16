@@ -4,3 +4,13 @@
     top: 20px;
     background: #fff;
 }
+
+.StickyHeader ul {
+    margin-left: 12%;
+}
+
+.StickyHeader ul li {
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: 18px;
+}

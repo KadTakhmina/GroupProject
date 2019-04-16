@@ -9,9 +9,7 @@ class HeaderInput extends Component {
    
     return (
       <div className="HeaderInput col-7">
-        <input  type="text"
-                placeholder = "Что Вы ищете?"
-                />
+        <input  type="text" placeholder = "Что Вы ищете?"/>
       </div>
     );
   }

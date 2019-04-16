@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Button from "./Button";
 import RaitingStar from './RaitingStar';
 
+import './styles/var.css';
+import './styles/ButtonsBlock.css';
+
 
 class ButtonsBlock extends Component {
   constructor() {

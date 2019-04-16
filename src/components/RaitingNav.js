@@ -1,4 +1,4 @@
-import React, { Component,Fragment } from 'react';
+import React, { Component } from 'react';
 
 import "./styles/RaitingNav.css"
 
@@ -7,8 +7,8 @@ class RaitingNav extends Component {
  
   render() {
     return (
-    <Fragment>
-			<span class = "d-inline-block">Рейтинг заведений</span>
+			<div className = "col-lg-6 col-sm-12 col-md-7 my-5">
+			<h5 class = "d-inline-block">Рейтинг заведений</h5>
 					<div class = "RaitingNav">
 						<span>Рестораны</span>
 						<span className = "raitingBlockArrow">&#10148</span>
@@ -20,7 +20,7 @@ class RaitingNav extends Component {
 							<span>Еще</span>
 						</div>	
 					</div>
-		</Fragment>
+		</div>
     );
   }
 }

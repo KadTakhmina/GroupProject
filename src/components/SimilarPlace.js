@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import RaitingStar from './RaitingStar';
 
+import './styles/var.css';
+import './styles/SimilarPlace.css';
+
 class SimilarPlace extends Component {
   render() {
     return (
