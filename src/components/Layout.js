@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Header from "./Header";
 import StickyHeader from "./StickyHeader";
 import Footer from "./Footer";
+import CommentCarousel from './CommentCarousel';
 
 class Layout extends Component {
  
@@ -13,6 +14,7 @@ class Layout extends Component {
 			<Header/>
 			<StickyHeader/>
         {this.props.children}
+        <CommentCarousel/>
         <Footer/>
       </div>
     );
