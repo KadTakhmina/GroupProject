@@ -10,6 +10,7 @@ class RaitingsPage extends Component {
 	 super()
 	 this.state = {
 		 resultsImg: resultsImg,
+		 resultsName: "resultsName",
 		 commentsCount: 54,
 		 comments: {
 			 text:"Ходили недавно с друзьями, все очень понравилось! Кухня просто огонь 🔥 все было очень вкусно. Музыка правда не...",
@@ -24,10 +25,19 @@ class RaitingsPage extends Component {
       <Layout>
 			<RaitingNav/>
 			<RaitingCard  resultsImg = {this.state.resultsImg}
+									  resultsName = {this.state.resultsName}
+										commentsCount= {this.state.commentsCount} 
+										comments= {this.state.comments} />
+			<RaitingCard  resultsImg = {this.state.resultsImg}
+									  resultsName = {this.state.resultsName}
+										commentsCount= {this.state.commentsCount} 
+										comments= {this.state.comments} />
+			<RaitingCard  resultsImg = {this.state.resultsImg}
+									  resultsName = {this.state.resultsName}
 										commentsCount= {this.state.commentsCount} 
 										comments= {this.state.comments} />
 			
-			</Layout>
+			</Layout>		
     );
   }
 }

@@ -12,7 +12,7 @@ class StickyHeader extends Component {
   render() {
     return (
       <div className="col-12  StickyHeader">
-          <nav class="navbar navbar-expand-lg navbar-light headerMenu ">
+          <nav class="navbar navbar-expand-lg  headerMenu ">
              <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item active">

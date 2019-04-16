@@ -4,29 +4,33 @@
     width: 10em;
     background: var(--main-color);
     color: #fff;
-    padding: auto 1.5em;
-    border-radius: 5px;
+    padding: 0 1.5em;
     position: relative;
     display: inline-block;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .resultCategories {
-    display: none;
+    display: block;
     position: absolute;
     background: var(--main-color);
     width: 100%;
     left: 0;
-    top: 98%;
-    border-radius: 5px;
+    top: 100%;
     z-index: 1;
 }
 
-.raitingBlockArrow:hover~.resultCategories {
-    display: block;
+.openDropDown {
+    display: none;
 }
 
-.resultCategories span {
-    display: block;
-    padding: 0.8em;
+.resultCategories div {
+    padding: .8em;
+    cursor: pointer;
+}
+
+.selected {
+    border-radius: 50px;
+    line-height: 2em;
 }

@@ -4,6 +4,7 @@ import PT from 'prop-types';
 
 
 import {RaitingImg,RaitingComments} from "../components";
+import "./styles/RaitingCard.css"
 
 
 class RaitingCard extends Component {
@@ -16,7 +17,7 @@ class RaitingCard extends Component {
 						resultsImg = {resultsImg}
 						commentsCount= {commentsCount}	
 						/>
-			
+			 
 				<RaitingComments comments = {comments}/>
 			</div>
 			
