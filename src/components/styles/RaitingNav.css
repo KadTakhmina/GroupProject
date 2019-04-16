@@ -12,7 +12,7 @@
 }
 
 .resultCategories {
-    display: block;
+    display: none;
     position: absolute;
     background: var(--main-color);
     width: 100%;
@@ -22,7 +22,7 @@
 }
 
 .openDropDown {
-    display: none;
+    display: block;
 }
 
 .resultCategories div {

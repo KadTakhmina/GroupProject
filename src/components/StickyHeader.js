@@ -12,11 +12,12 @@ class StickyHeader extends Component {
   render() {
     return (
       <div className="col-12  StickyHeader">
+
           <nav class="navbar navbar-expand-lg  headerMenu ">
              <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <Link class="nav-link" to= "/">Отели <span class="sr-only">(current)</span></Link>
+                    <Link class="nav-link" to= "/">Отели</Link>
                   </li>
                   <li class="nav-item">
                     <Link class="nav-link" to="/restaurants">Рестораны</Link>
@@ -43,6 +44,7 @@ class StickyHeader extends Component {
                 </ul>
              </div>
            </nav>
+            
         
       </div>
 
