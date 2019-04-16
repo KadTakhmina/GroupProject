@@ -14,5 +14,10 @@ export {default as SimilarPlace}  from "./SimilarPlace";
 export {default as Layout}  from "./Layout";
 export {default as MainInput}  from "./MainInput";
 export {default as Button}  from "./Button";
+export {default as Description}  from "./Description";
+
+
+
+
 
 
