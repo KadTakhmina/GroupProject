@@ -1,0 +1,229 @@
+[{
+        "id": 1,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Штайнброй",
+        "raiting": 4,
+        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "album": [
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+        ],
+        "instagram": "https://instagram.com/steinbrau_bishkek",
+        "address": {},
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            }
+        ]
+    }
+]

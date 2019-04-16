@@ -8,17 +8,26 @@ import "./styles/RaitingCard.css"
 
 
 class RaitingCard extends Component {
- 
+	constructor() {
+		super() ;
+		this.state = {
+			comments: [],
+		}
+	}
   render() {
-		const {resultsImg,commentsCount,comments} = this.props;
+		const {resultsImg,commentsCount,comments,resultsName} = this.props;
+			
     return (
       <div className="RaitingCard row">
 					<RaitingImg 
 						resultsImg = {resultsImg}
 						commentsCount= {commentsCount}	
+						resultsName= {resultsName}	
 						/>
-			 
-				<RaitingComments comments = {comments}/>
+				<RaitingComments  
+					comments = {comments[0]}
+					
+				/>
 			</div>
 			
 	
@@ -27,7 +36,11 @@ class RaitingCard extends Component {
 }
 
 RaitingCard.propTypes = {
-	comments: PT.array.isRequired
+	comments: PT.array.isRequired,
+	resultsImg:PT.string.isRequired,
+	commentsCount:PT.string.isRequired,
+	resultsName:PT.string.isRequired,
+	
 }
 
 export default RaitingCard;
