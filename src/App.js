@@ -9,7 +9,7 @@ import {SearchPage,Restaurants,RaitingsPage} from './pages';
 class App extends Component {
   render() {
     return (
-      <div className="App container">
+      <div className="App">
         <BrowserRouter history={createBrowserHistory()} >
           <Switch>
             <Route path="/" exact component={SearchPage} />
