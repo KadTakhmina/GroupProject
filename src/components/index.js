@@ -10,7 +10,6 @@ export {default as Button}  from "./Button";
 export {default as ButtonsBlock}  from "./ButtonsBlock";
 export {default as Map}  from "./Map";
 export {default as RaitingPlace}  from "./RaitingPlace";
-export {default as RaitingStar}  from "./RaitingStar";
 export {default as SimilarPlace}  from "./SimilarPlace";
 export {default as RaitingNav}  from "./RaitingNav";
 export {default as RaitingImg}  from "./RaitingImg";

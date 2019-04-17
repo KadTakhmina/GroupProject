@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PT from 'prop-types';
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
 
-import {RaitingStar} from "../components";
 import "./styles/RaitingComments.css"
 
 
@@ -13,7 +14,8 @@ class RaitingComments extends Component {
 		
     return (
       <div className="RaitingComments offset-lg-1 col-lg-5 col-sm-12 col-md-5 text-left">
-				<RaitingStar/>
+				<Rater total={5} rating={comments.commenterStars} interactive={false}>
+				</Rater>
 				<p>{comments.commenterText}</p>
 				<div className = "ownerPhotoBox"><img src={comments.commenterPhoto} alt=""/></div>
 				<span className = "commentOwnerName">{`${comments.commenterName}  ${comments.commenterLastName}`}</span>

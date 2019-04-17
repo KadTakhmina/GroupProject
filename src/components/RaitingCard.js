@@ -15,17 +15,19 @@ class RaitingCard extends Component {
 		}
 	}
   render() {
-		const {resultsImg,commentsCount,comments,resultsName} = this.props;
+		const {resultsImg,commentsCount,raitingsCount,resultsName,comments} = this.props;
 			
     return (
       <div className="RaitingCard row">
 					<RaitingImg 
 						resultsImg = {resultsImg}
 						commentsCount= {commentsCount}	
-						resultsName= {resultsName}	
+						resultsName= {resultsName}
+						raitingsCount = {raitingsCount}	
 						/>
 				<RaitingComments  
 					comments = {comments[0]}
+					
 					
 				/>
 			</div>

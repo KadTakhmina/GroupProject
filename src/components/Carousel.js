@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import './styles/Carousel.css';
 import hotelsIcon from "../img/hotels.svg"
 import entertainsIcon from "../img/entertains.svg"

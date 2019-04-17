@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
 import {Layout,RaitingNav,RaitingCard} from "../components";
-
-
 
 class RaitingsPage extends Component {
  constructor() {
@@ -15,8 +12,8 @@ class RaitingsPage extends Component {
 	 
  }
 
-componentDidMount() {
-	axios.get(`https://api.myjson.com/bins/13tiug`)
+componentWillMount() {
+	axios.get(`https://api.myjson.com/bins/13yaww`)
 	.then(res => {
 		 
 		this.setState({ results: res.data });
@@ -30,14 +27,15 @@ componentDidMount() {
   render() {
     return (
       <Layout>
-			<RaitingNav/>
+			<RaitingNav resultsCount = {this.state.results.length}/>
 			{this.state.results.map(i => {
 		
 				return(<RaitingCard 
-										key =  {this.state.results.length + 1} 
+										key =  {this.state.results.length} 
 										resultsImg = {i.photo}
 									  resultsName = {i.name}
-										commentsCount= {this.state.results.length + 1} 
+									  raitingsCount = {i.raiting}
+										commentsCount= {this.state.results.length} 
 										comments= {i.comments} />)
 			})}
 			

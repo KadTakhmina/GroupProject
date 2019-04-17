@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Button from "./Button";
-import RaitingStar from './RaitingStar';
 
+
+import Button from "./Button";
 import './styles/var.css';
 import './styles/ButtonsBlock.css';
 
@@ -17,14 +17,11 @@ class ButtonsBlock extends Component {
   render() {
     return (
       <div className="ButtonsBlock row">
-        <div class = "col col-lg-7 place-button-block">
+        <div class = "col col-7 placeButtonBlock">
           <Button val = {this.state.btn2}/>
           <Button val = {this.state.btn1}/>
         </div>
-        <div class = "col col-lg-5 user-rating-block">
-          <RaitingStar/>
-          <p>Оставить отзыв</p>
-        </div>
+        
       </div>
     );
   }
