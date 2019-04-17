@@ -14,6 +14,7 @@ class ReviewPage extends Component {
     return (
       <Layout>
         <div className="ReviewPage col-12 col-md-12 col-12">
+          <div className="mainContainer">
           <div className="aboutPlace">
             <div className="img">
               <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" className="place_image"/> 
@@ -37,6 +38,7 @@ class ReviewPage extends Component {
           </div>
           
           <input type="submit"/>
+          </div>
         </div>
       </Layout>
     );

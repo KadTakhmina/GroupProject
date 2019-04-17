@@ -3,6 +3,10 @@
   margin: 10px;
   height: 150px;
 }
+.mainContainer {
+  width: 600px;
+  margin-left: 30%;
+}
 .img {
   height: inherit;
 }
