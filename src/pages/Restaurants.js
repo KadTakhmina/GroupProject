@@ -1,17 +1,36 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
-
-import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel} from "../components";
+import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel,BgCarousel,Description} from "../components";
 
 
 class Restaurants extends Component {
- 
+  constructor() {
+    super()
+    this.state = {
+      
+        results: []
+    }
+    
+  }
+  componentWillMount() {
+    axios.get(`https://api.myjson.com/bins/13yaww`)
+    .then(res => {
+       
+      this.setState({ results: res.data });
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
   render() {
     return (
       <Layout>
+        <Description/>
+        <BgCarousel/>
 				<AboutPlace/> 
          <Map/>
-        <CommentCarousel/>
+        <CommentCarousel results= {this.state.results}/>
         <SimilarPlace/>
 			</Layout>
     );

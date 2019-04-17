@@ -3,7 +3,7 @@ import  { Link } from 'react-router-dom';
 
 import RaitingPlace from './RaitingPlace';
 import ButtonsBlock from './ButtonsBlock';
-import Description from './Description';
+
 
 import './styles/var.css';
 import './styles/AboutPlace.css';
@@ -12,11 +12,8 @@ import './styles/AboutPlace.css';
 class AboutPlace extends Component {
   render() {
     return (
-      <div className="AboutPlace container">
-        <div className="row">
-          <Description/> 
-        </div>
-        <div className="row">
+      <div className="AboutPlace container">     
+        <div className="row AboutPlaceInfo">
           <div class = "col col-lg-6 placeInfoBlock">
               <h5>Restaurans Name</h5>
               <span class = "place">Ресторан</span>

@@ -140,7 +140,7 @@ class Footer extends Component {
           </Link>
           <div class="footer-address">
             <Link to="https://goo.gl/maps/3irVhq4Zntq">
-              мкнр Асанбай, дом 8/1, кв 46, г.Бишкек, Кыргызстан
+              г.Бишкек, Кыргызстан
             </Link>
             <br />
             <div class="footer-gmail">
