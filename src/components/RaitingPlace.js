@@ -47,7 +47,7 @@ class RaitingPlace extends Component {
         <p>отзывов</p>
         <Rater total={5} rating={0} >
 				</Rater>
-          <p><Link to = "/">Оставить отзыв</Link></p>
+          <p><Link to = "/ReviewPage">Оставить отзыв</Link></p>
    
     </div>
       </div>

@@ -6,9 +6,13 @@
     color: var(--main-color);
     z-index: 500;
 }
+.StickyHeader ul {
+    margin-left: 20%;
+}
 
 .StickyHeader ul li {
     padding-left: 35px;
     padding-top: 15px;
     font-size: 18px;
+   
 }
