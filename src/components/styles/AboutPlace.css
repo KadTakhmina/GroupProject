@@ -1,11 +1,12 @@
 .AboutPlace {
-  margin-top: 35px;
+    margin-top: 35px;
 }
-.place-info-block {
-  text-align: start;
-  padding-left: 50px;
 
+.placeInfoBlock {
+    text-align: start;
+    padding-left: 50px;
 }
-.place-number {
-  color: var(--main-color)
+
+.addressBlock {
+    color: var(--main-color)
 }

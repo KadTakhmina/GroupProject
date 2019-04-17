@@ -3,8 +3,6 @@ import  { Link } from 'react-router-dom';
 import RaitingPlace from './RaitingPlace';
 import Description from './Description';
 
-
-
 import './styles/var.css';
 import './styles/AboutPlace.css';
 
@@ -13,19 +11,17 @@ class AboutPlace extends Component {
   render() {
     return (
       <div className="AboutPlace">
-        <div className="row flex-description">
+        <div className="row">
           <Description/> 
         </div>
         <div className="row">
-          <div class = "col col-lg-6 place-info-block">
-              <div class = "place-name"><b>Restaurans Name</b>
-              <br/>
+          <div class = "col col-lg-6 placeInfoBlock">
+              <h5>Restaurans Name</h5>
               <span class = "place">Ресторан</span>
-              </div>
               <br/>
-            <div class = "address-block">
-                <Link to = "/" class = "place-location"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></Link>
-                <p class = "place-number"><i class="fa fa-phone"></i> Показать телефон</p>
+            <div class = "addressBlock">
+                <Link to = "/" className = "d-block"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></Link>
+                <Link to = "/" className = "d-block"><i class="fa fa-phone"></i> Показать телефон</Link>
             </div>
             <br/>
             <p class = "place-extra-info"><b>Средний счёт на человека:</b>	400–500 сом</p>
