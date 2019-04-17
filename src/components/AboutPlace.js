@@ -21,7 +21,7 @@ class AboutPlace extends Component {
               <br/>
             <div class = "addressBlock">
                 <Link to = "/" className = "d-block"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></Link>
-                <Link to = "/" className = "d-block"><i class="fa fa-phone"></i> Показать телефон</Link>
+                <Link  className = "d-block"><i class="fa fa-phone"></i> Показать телефон</Link>
             </div>
             <br/>
             <p class = "place-extra-info"><b>Средний счёт на человека:</b>	400–500 сом</p>

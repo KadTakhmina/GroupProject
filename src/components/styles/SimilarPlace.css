@@ -1,18 +1,9 @@
-.SimilarPlace {
-  margin-top: 50px;
-}
-.similar-header-block {
-  text-align: start;
-  font-size: 18px;
-}
-.similar-place-info .rating-star-block {
-  display: flex;
-  font-size: 25px;
-  margin-left: 33%;
-  margin-bottom: 5px;
+.similarCards {
+    margin: 5em 0;
+    height: 11em;
 }
 
-.similar-place-info .similar-place-img {
-  height: 280px;
-  width: 280px;
+.similarCards img {
+    width: 100%;
+    height: 100%;
 }
