@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import RaitingStar from './RaitingStar';
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
 
 import './styles/var.css';
 import './styles/RaitingPlace.css';
+
 
 
 
@@ -15,7 +17,9 @@ class RaitingPlace extends Component {
             <span class = "rating-year">за год</span>
             <span class = "rating-all choosen">за все время</span>
           <div class="rating-star-block">
-            <RaitingStar/>
+          <Rater total={5} rating={3} >
+				<i class="far fa-star "></i>
+				</Rater>
           </div>
       <div class = "comment-block">
         <h1 class = "comment-amount">20</h1>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from "./Button";
-import RaitingStar from './RaitingStar';
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
 
 import './styles/var.css';
 import './styles/ButtonsBlock.css';
@@ -22,7 +23,9 @@ class ButtonsBlock extends Component {
           <Button val = {this.state.btn1}/>
         </div>
         <div class = "col col-lg-5 user-rating-block">
-          <RaitingStar/>
+        <Rater total={5} rating={3} >
+				<i class="far fa-star "></i>
+				</Rater>
           <p>Оставить отзыв</p>
         </div>
       </div>

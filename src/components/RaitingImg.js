@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import  { Link } from 'react-router-dom';
 import PT from "prop-types";
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
 
 import "./styles/RaitingImg.css"
-import   RaitingStar  from './RaitingStar';
+
 
 
 
@@ -17,7 +19,9 @@ class RaitingImg extends Component {
 				<img class = "w-100 h-100  resultsImg" alt = "results" src ={resultsImg}/>
 				<div className = "resultsHoverBlock img-fluid">
 					<Link to = "/" class = "resultsName">{`"${resultsName}"`}</Link>
-					<RaitingStar/>
+					<Rater total={5} rating={3} >
+				<i class="far fa-star "></i>
+				</Rater>
 					<Link to = "/" class = "resultsCommentCount">{`${commentsCount} отзыва`}</Link>
 				</div>			
 			</div>

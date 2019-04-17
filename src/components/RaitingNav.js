@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component ,Fragment} from 'react';
 
 import "./styles/RaitingNav.css"
 
@@ -33,7 +33,9 @@ openDropDown() {
 }
 
   render() {
+		const {resultsCount} = this.props;
     return (
+			<Fragment>
 			<div className = "col-lg-6 col-sm-12 col-md-7 my-5">
 			<h5 class = "d-inline-block">Рейтинг заведений</h5>
 					<div class = "RaitingNav">
@@ -46,7 +48,12 @@ openDropDown() {
 															> {item}</div>)})}
 						</div>	
 					</div>
-		</div>
+			</div>
+			<div className = " row offset-lg-6 col-sm-12 offset-md-7 mb-5 resultsCountText">
+			{`Найдено ${resultsCount} результатов`}
+			</div>
+			</Fragment>
+			
     );
   }
 }

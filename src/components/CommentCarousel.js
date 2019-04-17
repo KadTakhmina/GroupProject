@@ -1,13 +1,16 @@
 import React, { Component } from "react";
-import "./styles/CommentCarousel.css";
 import { Link } from "react-router-dom";
-import {RaitingStar} from "../components";
+import Rater from 'react-rater';
+import 'react-rater/lib/react-rater.css';
+
+
+import "./styles/CommentCarousel.css";
 
 class CommentCarousel extends Component {
   render() {
     return (
       <div className="CommentCarousel">
-     <div class="col-sm-12 col-md-8">
+     <div class="col-12 ">
         <div class="review-block">
             <div class="row">
                 <div class="col-sm-3">
@@ -19,7 +22,9 @@ class CommentCarousel extends Component {
                 </div>
                 <div class="col-sm-9">
                     <div class="review-block-rate">
-                        <RaitingStar/>
+                    <Rater total={5} rating={3} >
+				<i class="far fa-star "></i>
+				</Rater>
                     </div><br/>
                     <div class="review-block-title">This hotel is nice!</div><br/>
                     <div class="review-block-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. </div>
