@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import  { Link } from 'react-router-dom';
+
 import RaitingPlace from './RaitingPlace';
+import ButtonsBlock from './ButtonsBlock';
 import Description from './Description';
 
 import './styles/var.css';
@@ -10,7 +12,7 @@ import './styles/AboutPlace.css';
 class AboutPlace extends Component {
   render() {
     return (
-      <div className="AboutPlace">
+      <div className="AboutPlace container">
         <div className="row">
           <Description/> 
         </div>
@@ -26,6 +28,7 @@ class AboutPlace extends Component {
             <br/>
             <p class = "place-extra-info"><b>Средний счёт на человека:</b>	400–500 сом</p>
             <p class = "place-extra-info"><b>Время работы:</b>	10:00–23:00, без выходных</p>
+            <ButtonsBlock/>
           </div>
           <RaitingPlace/>
         </div> 

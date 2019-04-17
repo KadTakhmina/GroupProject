@@ -19,7 +19,8 @@ class Header extends Component {
   }
   render() {
     return (
-      <div className="Header row d-flex justify-content-between align-items-center ">
+      <div className = "Header ">
+        <div className=" container row  ">
         <img className = "logo col-2"
         alt ="logo"/>
         <HeaderInput />
@@ -28,10 +29,10 @@ class Header extends Component {
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
-               />
-
-           
+               />   
       </div>
+      </div>
+      
     );
   }
 }
