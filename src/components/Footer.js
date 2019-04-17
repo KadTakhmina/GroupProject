@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 class Footer extends Component {
   render() {
     return (
-      
-        <footer className="Footer container py-5">
+      <footer className="Footer">
+        <div className="container py-5">
           <div class="row">
             <div class="col-lg-3 col-md-3 col-6">
               <h5>О нас</h5>
@@ -151,7 +151,8 @@ class Footer extends Component {
             </div>
           </div>
           <hr class="my-4" />
-          <div class="footer-copyright py-3">Copyright © 2019-2020</div>
+          <div class="footer-copyright py-3">Copyright © 2019</div>
+        </div>
         </footer>
     );
   }

@@ -8,8 +8,7 @@ class StickyHeader extends Component {
   render() {
     return (
       <div className="StickyHeader">
-        
-        <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white ">
           <button
             class="navbar-toggler"
             data-toggle="collapse"

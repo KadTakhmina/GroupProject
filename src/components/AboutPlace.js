@@ -12,7 +12,7 @@ import './styles/AboutPlace.css';
 class AboutPlace extends Component {
   render() {
     return (
-      <div className="AboutPlace">
+      <div className="AboutPlace container">
         <div className="row">
           <Description/> 
         </div>
