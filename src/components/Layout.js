@@ -13,7 +13,7 @@ class Layout extends Component {
 			<Header/>
 			<StickyHeader/>
         {this.props.children}
-        
+        {/* <RunningString/> */}
         <Footer/>
       </div>
     );
