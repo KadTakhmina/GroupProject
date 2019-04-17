@@ -13,7 +13,6 @@ class Layout extends Component {
 			<Header/>
 			<StickyHeader/>
         {this.props.children}
-        
         <Footer/>
       </div>
     );

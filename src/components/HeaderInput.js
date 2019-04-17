@@ -10,8 +10,7 @@ class HeaderInput extends Component {
     return (
       <div className="HeaderInput col-7">
         <input  type="text" placeholder = "Что Вы ищете?"/>
-        {/* <i class="fa fa-search"></i> */}
-
+        <img src="src/img/smallSearchIcon.svg" alt="search-icon" />
       </div>
     );
   }
