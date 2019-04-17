@@ -23,8 +23,7 @@ class ButtonsBlock extends Component {
           <Button val = {this.state.btn1}/>
         </div>
         <div class = "col col-lg-5 user-rating-block">
-        <Rater total={5} rating={3} >
-				<i class="far fa-star "></i>
+        <Rater total={5} rating={0} >
 				</Rater>
           <p>Оставить отзыв</p>
         </div>

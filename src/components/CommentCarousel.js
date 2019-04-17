@@ -22,9 +22,8 @@ class CommentCarousel extends Component {
                 </div>
                 <div class="col-sm-9">
                     <div class="review-block-rate">
-                    <Rater total={5} rating={3} >
-				<i class="far fa-star "></i>
-				</Rater>
+                    <Rater total={5} rating={4} interactive={false}>
+				            </Rater>
                     </div><br/>
                     <div class="review-block-title">This hotel is nice!</div><br/>
                     <div class="review-block-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. </div>

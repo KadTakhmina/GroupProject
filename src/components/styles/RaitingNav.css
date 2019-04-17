@@ -38,4 +38,5 @@
 .resultsCountText {
     color: var(--main-color);
     font-size: 20px;
+    width: 20em;
 }

@@ -49,7 +49,7 @@ openDropDown() {
 						</div>	
 					</div>
 			</div>
-			<div className = " row offset-lg-6 col-sm-12 offset-md-7 mb-5 resultsCountText">
+			<div className = "offset-lg-6 col-sm-12 offset-md-7 mb-5 resultsCountText">
 			{`Найдено ${resultsCount} результатов`}
 			</div>
 			</Fragment>

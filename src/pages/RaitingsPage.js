@@ -37,6 +37,7 @@ componentWillMount() {
 										key =  {this.state.results.length} 
 										resultsImg = {i.photo}
 									  resultsName = {i.name}
+									  raitingsCount = {i.raiting}
 										commentsCount= {this.state.results.length} 
 										comments= {i.comments} />)
 			})}

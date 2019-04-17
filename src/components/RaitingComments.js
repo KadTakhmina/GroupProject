@@ -14,8 +14,7 @@ class RaitingComments extends Component {
 		
     return (
       <div className="RaitingComments offset-lg-1 col-lg-5 col-sm-12 col-md-5 text-left">
-				<Rater total={5} rating={comments.commenterStars} >
-				<i class="far fa-star "></i>
+				<Rater total={5} rating={comments.commenterStars} interactive={false}>
 				</Rater>
 				<p>{comments.commenterText}</p>
 				<div className = "ownerPhotoBox"><img src={comments.commenterPhoto} alt=""/></div>

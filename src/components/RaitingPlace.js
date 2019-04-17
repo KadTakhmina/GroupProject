@@ -17,8 +17,7 @@ class RaitingPlace extends Component {
             <span class = "rating-year">за год</span>
             <span class = "rating-all choosen">за все время</span>
           <div class="rating-star-block">
-          <Rater total={5} rating={3} >
-				<i class="far fa-star "></i>
+          <Rater total={5} rating={3} interactive={false}>
 				</Rater>
           </div>
       <div class = "comment-block">
