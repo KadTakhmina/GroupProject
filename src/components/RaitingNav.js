@@ -36,7 +36,7 @@ openDropDown() {
 		const {resultsCount} = this.props;
     return (
 			<div className="row">
-			<div className = "col-lg-6 col-sm-12 col-md-7 my-5">
+			<div className = "col-lg-6 col-sm-12 col-md-6 my-5">
 			<h5 class = "d-inline-block">Рейтинг заведений</h5>
 					<div class = "RaitingNav">
 						<div className = "selected" onClick = {this.openDropDown}>{this.state.selected}</div>
@@ -49,7 +49,7 @@ openDropDown() {
 						</div>	
 					</div>
 			</div>
-			<div className = "col-lg-6 col-sm-12 col-md-5 my-5 resultsCountText">
+			<div className = "offset-lg-7 col-sm-12  offset-md-7 resultsCountText">
 			{`Найдено ${resultsCount} результатов`}
 			</div>
 			</div>

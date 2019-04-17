@@ -13,7 +13,7 @@ class ReviewPage extends Component {
    
     return (
       <Layout>
-        <div className="ReviewPage col-12 col-md-12 col-12">
+        <div className="ReviewPage col-12 col-md-12 ">
           <div className="mainContainer">
           <div className="aboutPlace">
             <div className="img">
