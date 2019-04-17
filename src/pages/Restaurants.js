@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import {Layout,AboutPlace, ButtonsBlock, Map, SimilarPlace,CommentCarousel} from "../components";
+import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel} from "../components";
 
 
 class Restaurants extends Component {
@@ -9,9 +9,8 @@ class Restaurants extends Component {
   render() {
     return (
       <Layout>
-				<AboutPlace/>
-        <ButtonsBlock/>
-        <Map/>
+				<AboutPlace/> 
+         <Map/>
         <CommentCarousel/>
         <SimilarPlace/>
 			</Layout>

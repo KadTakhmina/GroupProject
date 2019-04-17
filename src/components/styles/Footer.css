@@ -1,27 +1,25 @@
 .Footer img {
     width: 40px;
     padding-left: 15px;
- }
- 
- .Footer {
+}
+
+.Footer {
     background: var(--main-color);
- }
- 
- .Footer h5, .list-unstyled text-small {
+}
+
+.Footer h5,
+.list-unstyled text-small {
     color: white !important;
- }
- /* .Footer.text-muted {
-    color: white !important;
- } */
- 
- .footer-address a {
-    color:  #DDDDDD;
- }
- 
- .footer-copyright {
-    color:  #DDDDDD;
- }
- .Footer hr {
+}
+
+.footer-address a {
+    color: #DDDDDD;
+}
+
+.footer-copyright {
+    color: #DDDDDD;
+}
+
+.Footer hr {
     background: white;
- }
- 
+}
