@@ -27,6 +27,7 @@ componentWillMount() {
   render() {
     return (
       <Layout>
+			<div className = "container row">
 			<RaitingNav resultsCount = {this.state.results.length}/>
 			{this.state.results.map(i => {
 		
@@ -38,6 +39,8 @@ componentWillMount() {
 										commentsCount= {this.state.results.length} 
 										comments= {i.comments} />)
 			})}
+			</div>
+			
 			
 			</Layout>		
     );
