@@ -6,9 +6,9 @@
   font-size: 18px;
 }
 .similar-place-info .rating-star-block {
+  display: flex;
   font-size: 25px;
-  margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 33%;
   margin-bottom: 5px;
 }
 
