@@ -7,18 +7,15 @@ class Restaurants extends Component {
   constructor() {
     super()
     this.state = {
-      
-        results: [],
-        currentData:JSON.parse(localStorage.getItem("currentEdit"))
+
+        currentData:JSON.parse(localStorage.getItem("currentEdit")), 
     }
     
   }
-  componentDidMount() {
-   this.setState({
-    currentData:JSON.parse(localStorage.getItem("currentEdit"))
-   });
-  }
+  
+  
   render() {
+
     return (
       <Layout>
         <Description name = {this.state.currentData[0].name}
@@ -32,7 +29,7 @@ class Restaurants extends Component {
         /> 
          <Map/>
         <CommentCarousel comments = {this.state.currentData[0].comments}/>
-        <SimilarPlace/>
+        <SimilarPlace  />
 			</Layout>
     );
   }

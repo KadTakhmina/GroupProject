@@ -19,6 +19,10 @@ export {default as Description}  from "./Description";
 export {default as CommentCarousel}  from "./CommentCarousel";
 export {default as BgCarousel}  from "./BgCarousel";
 export {default as VideoBg}  from "./VideoBg";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ebc3056f1cb95b066de135ad5e285d67386f2bd
 
 
 
