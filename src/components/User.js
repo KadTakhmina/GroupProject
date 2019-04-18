@@ -6,31 +6,18 @@ import './styles/User.css';
 
 
 class User extends Component {
-  constructor() {
-    super();
-    this.state = {
-      openUser: false
-    }
-    this.openUser = this.openUser.bind(this)
-  }
-
-  openUser() {
-     this.setState({openUser: !this.state.openUser});
-     console.log("kfkhdkhs")
-
-    };
   render() {
     const {photo,name,lastName} = this.props;
 
     return (
-      <div  className="User col-md-3 col-lg-3 col-1 d-flex  justify-content-around align-items-center">
-        <img src={photo} alt = "User"
-             onClick= {this.openUser }/>  
-        <div className = {this.state.openUser ? "openUser" : ""}>
-          <p>{`${name}  ${lastName}`}</p>
-          <p><Link className = "d-block">Мои отзывы</Link></p>
-          {/* <Link className = "d-block">Регистрация</Link> */}
-          <Link className = "d-block" to="/LoginPage">Войти</Link>    
+      <div class="dropdown">
+        <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <img src={photo} alt = "User"/>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">{`${name}  ${lastName}`}</a>
+          <a class="dropdown-item" href="#"><Link className = "d-block">Мои отзывы</Link></a>
+          <a class="dropdown-item" href="#"> <Link className = "d-block" to="/LoginPage">Войти</Link> </a>
         </div>
       </div>
     );

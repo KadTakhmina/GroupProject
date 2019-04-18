@@ -5,11 +5,7 @@ import User from "./User";
 import userPhoto from "../img/user.svg"
 // import "./styles/HeaderBg.css"
 
-<<<<<<< HEAD
-
-=======
 import "./styles/Header.css"
->>>>>>> 256b6a6c949d9be51d4c213e246d0e92fcfb7361
 
 class Header extends Component {
   constructor() {
@@ -26,11 +22,7 @@ class Header extends Component {
         <div className=" container row  ">
         <img className = "logo col-2"
         alt ="logo"/>
-<<<<<<< HEAD
-        <HeaderInput />
-=======
         <HeaderInput />     
->>>>>>> 256b6a6c949d9be51d4c213e246d0e92fcfb7361
         <User 
               name = {this.state.userName}
               lastName = {this.state.userLastName}
