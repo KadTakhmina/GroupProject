@@ -39,6 +39,7 @@ class SimilarPlace extends Component {
             <p className = "similar-place-name">"Similar Restauran"</p>
         </div>
         
+        
       </div>
       </div>
       
