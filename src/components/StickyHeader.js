@@ -18,13 +18,18 @@ class StickyHeader extends Component {
               </button>
 
               <ul class="navbar-nav">
+              <li class="nav-item">
+                  <Link class="nav-link" to="/">
+                    Главная
+                  </Link>
+                </li>
                 <li class="nav-item">
                   <Link class="nav-link" to="/">
                     Отели
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/raitings">
+                  <Link class="nav-link" to="/restauranRatings">
                     Рестораны
                   </Link>
                 </li>

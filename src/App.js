@@ -13,8 +13,8 @@ class App extends Component {
         <BrowserRouter history={createBrowserHistory()} >
           <Switch>
             <Route path="/" exact component={SearchPage} />
-            <Route path="/restaurants" exact component={Restaurants} />
-            <Route path="/raitings" exact component={RaitingsPage} />
+            <Route path="/viewPage" exact component={Restaurants} />
+            <Route path="/restauranRatings" exact component={RaitingsPage} />
             <Route path="/ReviewPage" exact component={ReviewPage} />
           </Switch>
         </BrowserRouter>

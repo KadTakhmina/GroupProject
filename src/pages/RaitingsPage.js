@@ -13,7 +13,7 @@ class RaitingsPage extends Component {
  }
 
 componentWillMount() {
-	axios.get(`https://api.myjson.com/bins/13yaww`)
+	axios.get(`https://api.myjson.com/bins/ce8eo`)
 	.then(res => {
 		 
 		this.setState({ results: res.data });
@@ -27,13 +27,13 @@ componentWillMount() {
   render() {
     return (
       <Layout>
-			<div className = "container row">
+			<div className = "container">
 			<RaitingNav resultsCount = {this.state.results.length}/>
 			{this.state.results.map(i => {
 		
 				return(<RaitingCard 
 										key =  {this.state.results.length} 
-										resultsImg = {i.photo}
+										resultsImg = {i.album[0]}
 									  resultsName = {i.name}
 									  raitingsCount = {i.raiting}
 										commentsCount= {this.state.results.length} 
