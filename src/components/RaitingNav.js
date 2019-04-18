@@ -1,4 +1,4 @@
-import React, { Component ,Fragment} from 'react';
+import React, { Component } from 'react';
 
 import "./styles/RaitingNav.css"
 
@@ -35,24 +35,24 @@ openDropDown() {
   render() {
 		const {resultsCount} = this.props;
     return (
-			<Fragment>
-			<div className = "col-lg-6 col-sm-12 col-md-7 my-5">
+			<div className="row">
+			<div className = "col-lg-6 col-sm-12 col-md-6 my-5">
 			<h5 class = "d-inline-block">Рейтинг заведений</h5>
-					<div class = "RaitingNav">
-						<div className = "selected" onClick = {this.openDropDown}>{this.state.selected}</div>
-						<div className = "raitingBlockArrow"></div>
-						<div className = {`resultCategories ${this.state.isOpen ? "openDropDown" : ""}`}>
+					<div className = "RaitingNav" onMouseLeave ={this.openDropDown}>
+						<div className = "selected"   onClick = {this.openDropDown}>{this.state.selected}</div>
+						<div className = {`resultCategories ${this.state.isOpen ? "openDropDown" : ""}`} 	>
 							{this.state.droplist.map(item=> {
 								return(	<div key = {item} 
-															onClick= {this.changeDropDown}						
+															onClick= {this.changeDropDown}	
+																			
 															> {item}</div>)})}
 						</div>	
 					</div>
 			</div>
-			<div className = "offset-lg-6 col-sm-12 offset-md-7 mb-5 resultsCountText">
+			<div className = "col-lg-6 col-sm-12  col-md-6 resultsCountText my-5">
 			{`Найдено ${resultsCount} результатов`}
 			</div>
-			</Fragment>
+			</div>
 			
     );
   }

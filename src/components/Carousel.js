@@ -9,7 +9,7 @@ class Carousel extends Component {
  
   render() {
     return (
-      <div className="Carousel ">
+      <div className="Carousel container ">
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">      
           <div class="carousel-inner">
             <div class="carousel-item active d-flex justify-content-between ">

@@ -19,7 +19,7 @@ class RaitingImg extends Component {
 			<div className="RaitingImg 	 col-lg-6 col-sm-12 col-md-7">
 				<img class = "w-100 h-100  resultsImg" alt = "results" src ={resultsImg}/>
 				<div className = "resultsHoverBlock img-fluid">
-					<Link to = "/restaurants" className = "resultsName">{`"${resultsName}"`}</Link>
+					<Link to = "/viewPage"  className = "resultsName">{`"${resultsName}"`}</Link>
 					<div>
 					<Rater total={5} rating={raitingsCount} interactive={false}>
 				</Rater>

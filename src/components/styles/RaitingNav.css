@@ -1,42 +1,48 @@
-.RaitingNav {
-    margin: 0 0.5em;
-    height: 2em;
-    width: 10em;
-    background: var(--main-color);
-    color: #fff;
-    padding: 0 1.5em;
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.resultCategories {
-    display: none;
-    position: absolute;
-    background: var(--main-color);
-    width: 100%;
-    left: 0;
-    top: 100%;
-    z-index: 1;
-}
-
-.openDropDown {
-    display: block;
-}
-
-.resultCategories div {
-    padding: .8em;
-    cursor: pointer;
-}
-
-.selected {
-    border-radius: 50px;
-    line-height: 2em;
-}
-
-.resultsCountText {
-    color: var(--main-color);
-    font-size: 20px;
-    width: 20em;
-}
+    .RaitingNav {
+        margin: 0 0.5em;
+        height: 2em;
+        width: 10em;
+        background: var(--main-color);
+        color: #fff;
+        padding: 0 1.5em;
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    
+    .resultCategories {
+        display: none;
+        position: absolute;
+        background: var(--main-color);
+        width: 100%;
+        left: 0;
+        top: 95%;
+        z-index: 1;
+        transition: all .3s ease;
+    }
+    
+    .openDropDown {
+        display: block;
+    }
+    
+    .resultCategories div {
+        padding: .7em;
+        cursor: pointer;
+    }
+    
+    .resultCategories div:hover {
+        background: blue;
+    }
+    
+    .selected {
+        border-radius: 5px;
+        line-height: 2em;
+    }
+    
+    .resultsCountText {
+        color: var(--main-color);
+        font-size: 20px;
+    }

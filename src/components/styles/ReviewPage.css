@@ -1,0 +1,46 @@
+.aboutPlace {
+    display: flex;
+    margin: 10px;
+    height: 150px;
+}
+
+.mainContainer {
+    width: 600px;
+    margin-left: 30%;
+}
+
+.img {
+    height: inherit;
+}
+
+.ReviewPage {
+    text-align: start;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.place_image {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.pageTitle {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.Raiting {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Raiting p {
+    font-size: 20px;
+}
+
+.reviewForm {
+    height: 100px;
+    width: 500px;
+}

@@ -18,7 +18,7 @@ class RaitingCard extends Component {
 		const {resultsImg,commentsCount,raitingsCount,resultsName,comments} = this.props;
 			
     return (
-      <div className="RaitingCard row">
+				<div className="RaitingCard row py-3">
 					<RaitingImg 
 						resultsImg = {resultsImg}
 						commentsCount= {commentsCount}	
@@ -26,13 +26,9 @@ class RaitingCard extends Component {
 						raitingsCount = {raitingsCount}	
 						/>
 				<RaitingComments  
-					comments = {comments[0]}
-					
-					
+					comments = {comments[0]}	
 				/>
 			</div>
-			
-	
     );
   }
 }

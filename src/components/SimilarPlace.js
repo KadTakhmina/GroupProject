@@ -8,7 +8,8 @@ import './styles/SimilarPlace.css';
 class SimilarPlace extends Component {
   render() {
     return (
-      <div className="row SimilarPlace ">
+      <div className  = "container">
+        <div className="row SimilarPlace ">
         <div className = "col col-lg-3 col-md-3 col-6 similarCards">
             <img className = "img-fluid" alt = "similars"
                  src = "https://images.unsplash.com/photo-1521834029104-b056ecebbb05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=669&q=80"/>
@@ -39,6 +40,8 @@ class SimilarPlace extends Component {
         </div>
         
       </div>
+      </div>
+      
     );
   }
 }

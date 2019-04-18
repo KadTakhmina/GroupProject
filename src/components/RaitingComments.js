@@ -13,11 +13,11 @@ class RaitingComments extends Component {
 		const {comments} = this.props;
 		
     return (
-      <div className="RaitingComments offset-lg-1 col-lg-5 col-sm-12 col-md-5 text-left">
-				<Rater total={5} rating={comments.commenterStars} interactive={false}>
+      <div className="RaitingComments offset-2 col-lg-5 col-sm-12 col-md-5 text-left">
+				<Rater total={5} rating={comments.commenterStars} interactive={false} className = "stars">
 				</Rater>
 				<p>{comments.commenterText}</p>
-				<div className = "ownerPhotoBox"><img src={comments.commenterPhoto} alt=""/></div>
+				<div className = "ownerPhotoBox"><img src={comments.commenterPhoto} alt="commenterPhoto"/></div>
 				<span className = "commentOwnerName">{`${comments.commenterName}  ${comments.commenterLastName}`}</span>
 			</div>
     );

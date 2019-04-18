@@ -1,12 +1,12 @@
 .Description {
-    margin-bottom: 40px;
+    margin: 5em 0;
 }
 
 .DescriptionNav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em;
+    margin: 0 auto;
 }
 
 .img {

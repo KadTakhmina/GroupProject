@@ -1,27 +1,31 @@
 [{
         "id": 1,
-        "name": "Штайнброй",
+        "name": "Niko",
         "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "logo": "https://instagram.fhel5-1.fna.fbcdn.net/vp/d955643a7a3aa388e6e7a121a61c5e89/5D559D03/t51.2885-19/s150x150/42607288_253818718814183_94005731618979840_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net",
         "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40aa1b42a73aa336ec5e/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ab1b42a73aa336ec60/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40ac1b42a73aa336ec62/1170x468/c1/q70",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ad1b42a73aa336ec64/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40a81b42a73aa336ec5c/1170x468/c1/q70"
         ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
+        "instagram": "https://restoran.kg/restaurant/1499-niko",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
         "phones": "+996(555)78-70-25",
         "pricePerPerson": "800–1000 сом",
         "workingHours": {},
         "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "description": " Повседневная практика показывает, что рамки и место обучения кадров представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности требуют от нас анализа модели развития. Идейные соображения высшего порядка, а также укрепление и развитие структуры позволяет выполнять важные задания по разработке модели развития.",
         "comments": [{
                 "commenterId": 1,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 5,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
             },
@@ -33,105 +37,69 @@
                 "commenterStars": 3,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Штайнброй",
-        "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "name": "MARIO",
+        "raiting": 5,
+        "logo": "https://instagram.fhel5-1.fna.fbcdn.net/vp/b3ead935c8ba267418ab650879ba272f/5D375CA4/t51.2885-19/s150x150/24838212_152910672005166_926513622153166848_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net",
         "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+            "https://strg1.restoran.kg/neofiles/serve-image/58b65fa81b42a717e5b36235/1170x468/c1/q70",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/89bef07a8dd1124188ca8711d2edf73f/5CBA9650/t51.2885-15/e35/c140.0.360.360a/57583276_269939287291015_6945005743160405566_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/Bvx28vlnUha/",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ad1b42a73aa336ec64/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40a81b42a73aa336ec5c/1170x468/c1/q70"
         ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
+        "instagram": "https://www.instagram.com/marioristorante/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
         "phones": "+996(555)78-70-25",
         "pricePerPerson": "800–1000 сом",
         "workingHours": {},
         "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
         "comments": [{
                 "commenterId": 1,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 5,
-                "commenterImpression": "funny",
-                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
-            },
-            {
-                "commenterId": 2,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 5,
-                "commenterImpression": "funny",
-                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Штайнброй",
-        "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
-        "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
-        ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
-        "phones": "+996(555)78-70-25",
-        "pricePerPerson": "800–1000 сом",
-        "workingHours": {},
-        "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
-        "comments": [{
-                "commenterId": 1,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
                 "commenterStars": 4,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
             },
             {
                 "commenterId": 2,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 2,
-                "commenterImpression": "funny",
-                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Штайнброй",
-        "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
-        "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
-        ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
-        "phones": "+996(555)78-70-25",
-        "pricePerPerson": "800–1000 сом",
-        "workingHours": {},
-        "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
-        "comments": [{
-                "commenterId": 1,
                 "commenterName": "gofre",
                 "commenterLastName": "gofre",
                 "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
@@ -140,39 +108,61 @@
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
             },
             {
-                "commenterId": 2,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 2,
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
                 "commenterImpression": "funny",
-                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
             }
         ]
     },
     {
-        "id": 5,
-        "name": "Штайнброй",
-        "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "id": 3,
+        "name": "Сонет",
+        "raiting": 3,
+        "logo": "https://instagram.fhel5-1.fna.fbcdn.net/vp/b3ead935c8ba267418ab650879ba272f/5D375CA4/t51.2885-19/s150x150/24838212_152910672005166_926513622153166848_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net",
         "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+            "https://strg1.restoran.kg/neofiles/serve-image/57fdb39ab7f1d94e59000ab5/1170x468/c1/q70",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/89bef07a8dd1124188ca8711d2edf73f/5CBA9650/t51.2885-15/e35/c140.0.360.360a/57583276_269939287291015_6945005743160405566_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/Bvx28vlnUha/",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ad1b42a73aa336ec64/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40a81b42a73aa336ec5c/1170x468/c1/q70"
         ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
+        "instagram": "https://www.instagram.com/marioristorante/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
         "phones": "+996(555)78-70-25",
         "pricePerPerson": "800–1000 сом",
         "workingHours": {},
         "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
         "comments": [{
                 "commenterId": 1,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
                 "commenterStars": 4,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
@@ -182,36 +172,68 @@
                 "commenterName": "gofre",
                 "commenterLastName": "gofre",
                 "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 5,
+                "commenterStars": 3,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
             }
         ]
     },
     {
-        "id": 6,
-        "name": "Штайнброй",
+        "id": 4,
+        "name": "Ассорти Бухара",
         "raiting": 4,
-        "photo": "https://strg2.restoran.kg/neofiles/serve-image/5b18d9c91b42a707e271f521/1170x468/c1/q70",
+        "logo": "https://strg1.restoran.kg/neofiles/serve-image/57ceab98b7f1d94a53000268/200x70",
         "album": [
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f524/1170x468/c1/q70",
-            "https://strg2.restoran.kg/neofiles/serve-image/5b18d9cb1b42a707e271f526/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70",
-            "https://strg1.restoran.kg/neofiles/serve-image/5b18d9cc1b42a707e271f528/1170x468/c1/q70"
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/05d1b535c4c31d3825859e0d7a3827d1/5D31C6A9/t51.2885-15/sh0.08/e35/s640x640/56358364_389100958600973_5633056306768258133_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/BvipDmhAobT/",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/36c7b46b49b989164992cc2b6c37937c/5D519911/t51.2885-15/sh0.08/e35/s640x640/56843796_1956993881072699_8970521244854745753_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/05d1b535c4c31d3825859e0d7a3827d1/5D31C6A9/t51.2885-15/sh0.08/e35/s640x640/56358364_389100958600973_5633056306768258133_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/BvipDmhAobT/",
+            "https://www.instagram.com/p/Bvn44_1gFTJ/"
         ],
-        "instagram": "https://instagram.com/steinbrau_bishkek",
-        "address": {},
+        "instagram": "https://www.instagram.com/assortibuhara/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
         "phones": "+996(555)78-70-25",
         "pricePerPerson": "800–1000 сом",
         "workingHours": {},
         "impression": "nice",
-        "description": "Ресторан Штайнброй Бишкек Ресторан Штайнброй стал традиционным местом проведения праздничных мероприятий и приемов Посольства Германии в Кыргызстане. Каждый год 3 октября проходит прием посвященный Дню Объединения Германии на который приглашаются несколько сот гостей. Другие праздники проводимые в нашем ресторане это Карнавал и Рождественская ярмарка. Ресторан и банкетный зал готовы стать местом и вашего праздника!",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
         "comments": [{
                 "commenterId": 1,
-                "commenterName": "gofre",
-                "commenterLastName": "gofre",
-                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 5,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
             },
@@ -220,9 +242,387 @@
                 "commenterName": "gofre",
                 "commenterLastName": "gofre",
                 "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
-                "commenterStars": 1,
+                "commenterStars": 3,
                 "commenterImpression": "funny",
                 "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "ИМПЕРАТОР",
+        "raiting": 3,
+        "logo": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.xreBeTRuR8mJaY975uY3DwHaHa%26pid%3DApi&f=1",
+        "album": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://www.instagram.com/p/Bvn44_1gFTJ/",
+            "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D946292198727624&f=1",
+            "https://images.unsplash.com/photo-1515669097368-22e68427d265?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://strg2.restoran.kg/neofiles/serve-image/57ff02adb7f1d94ec1000d8a/1170x468/c1/q70",
+            "https://www.instagram.com/p/Bvn44_1gFTJ/"
+        ],
+        "instagram": "https://www.instagram.com/assortibuhara/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 3,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "MARIO",
+        "raiting": 5,
+        "logo": "https://instagram.fhel5-1.fna.fbcdn.net/vp/b3ead935c8ba267418ab650879ba272f/5D375CA4/t51.2885-19/s150x150/24838212_152910672005166_926513622153166848_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net",
+        "album": [
+            "https://strg1.restoran.kg/neofiles/serve-image/58b65fa81b42a717e5b36235/1170x468/c1/q70",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/89bef07a8dd1124188ca8711d2edf73f/5CBA9650/t51.2885-15/e35/c140.0.360.360a/57583276_269939287291015_6945005743160405566_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/Bvx28vlnUha/",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ad1b42a73aa336ec64/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40a81b42a73aa336ec5c/1170x468/c1/q70"
+        ],
+        "instagram": "https://www.instagram.com/marioristorante/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 3,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Сонет",
+        "raiting": 3,
+        "logo": "https://instagram.fhel5-1.fna.fbcdn.net/vp/b3ead935c8ba267418ab650879ba272f/5D375CA4/t51.2885-19/s150x150/24838212_152910672005166_926513622153166848_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net",
+        "album": [
+            "https://strg1.restoran.kg/neofiles/serve-image/57fdb39ab7f1d94e59000ab5/1170x468/c1/q70",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/89bef07a8dd1124188ca8711d2edf73f/5CBA9650/t51.2885-15/e35/c140.0.360.360a/57583276_269939287291015_6945005743160405566_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/Bvx28vlnUha/",
+            "https://strg2.restoran.kg/neofiles/serve-image/59cb40ad1b42a73aa336ec64/1170x468/c1/q70",
+            "https://strg1.restoran.kg/neofiles/serve-image/59cb40a81b42a73aa336ec5c/1170x468/c1/q70"
+        ],
+        "instagram": "https://www.instagram.com/marioristorante/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 3,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ассорти Бухара",
+        "raiting": 4,
+        "logo": "https://strg1.restoran.kg/neofiles/serve-image/57ceab98b7f1d94a53000268/200x70",
+        "album": [
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/05d1b535c4c31d3825859e0d7a3827d1/5D31C6A9/t51.2885-15/sh0.08/e35/s640x640/56358364_389100958600973_5633056306768258133_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/BvipDmhAobT/",
+            "https://strg2.restoran.kg/neofiles/serve-image/57ceac45b7f1d949e3000288/1170x468/c1/q70",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/36c7b46b49b989164992cc2b6c37937c/5D519911/t51.2885-15/sh0.08/e35/s640x640/56843796_1956993881072699_8970521244854745753_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://instagram.fala5-1.fna.fbcdn.net/vp/05d1b535c4c31d3825859e0d7a3827d1/5D31C6A9/t51.2885-15/sh0.08/e35/s640x640/56358364_389100958600973_5633056306768258133_n.jpg?_nc_ht=instagram.fala5-1.fna.fbcdn.net",
+            "https://www.instagram.com/p/BvipDmhAobT/",
+            "https://www.instagram.com/p/Bvn44_1gFTJ/"
+        ],
+        "instagram": "https://www.instagram.com/assortibuhara/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 3,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "ИМПЕРАТОР",
+        "raiting": 3,
+        "logo": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.xreBeTRuR8mJaY975uY3DwHaHa%26pid%3DApi&f=1",
+        "album": [
+            "https://www.instagram.com/p/Bvn44_1gFTJ/",
+            "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D946292198727624&f=1",
+            "https://images.unsplash.com/photo-1515669097368-22e68427d265?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "https://strg2.restoran.kg/neofiles/serve-image/57ff02adb7f1d94ec1000d8a/1170x468/c1/q70",
+            "https://www.instagram.com/p/Bvn44_1gFTJ/"
+        ],
+        "instagram": "https://www.instagram.com/assortibuhara/",
+        "address": {
+            "long": "",
+            "lat": ""
+        },
+        "phones": "+996(555)78-70-25",
+        "pricePerPerson": "800–1000 сом",
+        "workingHours": {},
+        "impression": "nice",
+        "description": "Идейные соображения высшего порядка, а также консультация с широким активом играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.",
+        "comments": [{
+                "commenterId": 1,
+                "commenterName": "Loriella",
+                "commenterLastName": "Ri",
+                "commenterPhoto": "https://graph.facebook.com/693675797681828/picture",
+                "commenterStars": 4,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 2,
+                "commenterName": "gofre",
+                "commenterLastName": "gofre",
+                "commenterPhoto": "https://avt-3.foto.mail.ru/mail/gofre577702/_avatarbig?1465884864",
+                "commenterStars": 3,
+                "commenterImpression": "funny",
+                "commenterText": "Не ожидали, что так весело проведём время , пришли первый раз 8 марта и остались довольны. Кавказская кухня не оставила равнодушными. Обслуживание очень понравилось."
+            },
+            {
+                "commenterId": 3,
+                "commenterName": "Чолпон",
+                "commenterLastName": "Кадыркулова",
+                "commenterPhoto": "https://graph.facebook.com/1956155838010225/picture",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Отмечала в этом ресторане свой день рождения, кухня оочень вкусная, сервис все чисто и уютно, отдельное спасибо админ Айнуре, мы провели незабываемый вечер!!! Процветания Вам, вы супер,  Сонет.Первый раз была и осталась очень довольна "
+            },
+            {
+                "commenterId": 4,
+                "commenterName": "Kanybek",
+                "commenterLastName": "Bargy",
+                "commenterPhoto": "https://lh4.googleusercontent.com/-exo6A_TcaQo/AAAAAAAAAAI/AAAAAAAAAkE/Fyv0Kk4I2EA/photo.jpg",
+                "commenterStars": 1,
+                "commenterImpression": "funny",
+                "commenterText": "сразу начну с еды , она мягко говоря не очень . Маленький порций , на вкус как отбитые полуфабрикаты , притерный вкус даже у папы на даче лучше бы приготовили"
+            },
+            {
+                "commenterId": 5,
+                "commenterName": "Эрмек",
+                "commenterLastName": "Мадалиев",
+                "commenterPhoto": "https://avt-15.foto.mail.ru/mail/ademmer-21/_avatarbig?1353549715",
+                "commenterStars": 5,
+                "commenterImpression": "funny",
+                "commenterText": "Заходил сперва один покушать. Потом привел гостей, посидели хорошо, хорошая музыка!"
             }
         ]
     }

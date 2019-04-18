@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 import {Layout,Carousel,MainInput} from "../components";
-import RunningString from '../components/RunningString';
+// import RunningString from '../components/RunningString';
 
 class SearchPage extends Component {
  
@@ -11,7 +11,7 @@ class SearchPage extends Component {
       <Layout>
         <Carousel/>
         <MainInput/>
-        <RunningString/>
+        {/* <RunningString/> */}
       </Layout>
     );
   }

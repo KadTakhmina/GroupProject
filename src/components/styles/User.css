@@ -1,0 +1,19 @@
+.User a {
+    color: #fff;
+}
+
+.User div {
+    background: var(--main-color);
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.User div .openUser {
+    color: red;
+}
