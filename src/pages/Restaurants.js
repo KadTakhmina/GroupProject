@@ -14,7 +14,7 @@ class Restaurants extends Component {
     
   }
   componentWillMount() {
-    axios.get(`https://api.myjson.com/bins/13yaww`)
+    axios.get(`https://api.myjson.com/bins/l35u8`)
     .then(res => {
        
       this.setState({ results: res.data });

@@ -17,7 +17,7 @@ class ReviewPage extends Component {
           <div className="mainContainer">
           <div className="aboutPlace">
             <div className="img">
-              <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" className="place_image"/> 
+              <img alt ="alttext" src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" className="place_image"/> 
             </div>
             <div className="about">
                 <h2>Название ресторана</h2>

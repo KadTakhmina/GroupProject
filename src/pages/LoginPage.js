@@ -18,6 +18,7 @@ class LoginPage extends Component {
             <div id="wrapper">
                 <div id="login" class="animate form">
                     <form  action="mysuperscript.php" autocomplete="on"> 
+                        <i class="fa fa-times-circle close"></i>
                         <h1>Вход</h1> 
                         <p> 
                           <label for="username" class="uname" data-icon="u" > Ваш e-mail или логин</label>
@@ -43,6 +44,7 @@ class LoginPage extends Component {
           
                   <div id="register" class="animate form">
                       <form  action="mysuperscript.php" autocomplete="on"> 
+                         <i class="fa fa-times-circle close"></i>
                           <h1> Регистрация </h1> 
                           <p> 
                               <label for="usernamesignup" class="uname" data-icon="u">Ваш логин</label>

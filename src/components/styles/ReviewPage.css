@@ -40,11 +40,6 @@
     font-size: 20px;
 }
 
-.Raiting .stars {
-    display: flex;
-    font-size: 35px;
-}
-
 .reviewForm {
     height: 100px;
     width: 500px;

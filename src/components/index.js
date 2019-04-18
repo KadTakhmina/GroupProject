@@ -18,6 +18,7 @@ export {default as RaitingComments}  from "./RaitingComments";
 export {default as Description}  from "./Description";
 export {default as CommentCarousel}  from "./CommentCarousel";
 export {default as BgCarousel}  from "./BgCarousel";
+export {default as VideoBg}  from "./VideoBg";
 
 
 

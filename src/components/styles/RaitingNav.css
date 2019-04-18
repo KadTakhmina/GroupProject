@@ -9,6 +9,8 @@
         display: inline-block;
         font-size: 20px;
         cursor: pointer;
+        border-radius: 5px;
+        font-weight: 600;
     }
     
     .resultCategories {
@@ -17,8 +19,9 @@
         background: var(--main-color);
         width: 100%;
         left: 0;
-        top: 100%;
+        top: 95%;
         z-index: 1;
+        transition: all .3s ease;
     }
     
     .openDropDown {
@@ -26,12 +29,16 @@
     }
     
     .resultCategories div {
-        padding: .8em;
+        padding: .7em;
         cursor: pointer;
     }
     
+    .resultCategories div:hover {
+        background: blue;
+    }
+    
     .selected {
-        border-radius: 50px;
+        border-radius: 5px;
         line-height: 2em;
     }
     
