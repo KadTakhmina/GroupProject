@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 import HeaderInput from "./HeaderInput";
 import User from "./User";
 import userPhoto from "../img/user.svg"
@@ -22,8 +21,9 @@ class Header extends Component {
         <div className=" container row  ">
         <img className = "logo col-2"
         alt ="logo"/>
+
         <HeaderInput />
-     
+
         <User 
               name = {this.state.userName}
               lastName = {this.state.userLastName}

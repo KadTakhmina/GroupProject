@@ -23,17 +23,15 @@ class User extends Component {
     const {photo,name,lastName} = this.props;
 
     return (
-      <div 
-           className="User col-md-3 col-lg-3 col-1 d-flex  justify-content-around align-items-center">
-           <img src={photo} alt = "User"
-               onClick= {this.openUser }/>  
-      <div className = {this.state.openUser ? "openUser" : ""}>
-        <p>{`${name}  ${lastName}`}</p>
-        <p><Link className = "d-block">Мои отзывы</Link></p>
-        <Link className = "d-block">Регистрация</Link>
-        <Link className = "d-block">Войти</Link>    
-      </div>
-       
+      <div  className="User col-md-3 col-lg-3 col-1 d-flex  justify-content-around align-items-center">
+        <img src={photo} alt = "User"
+             onClick= {this.openUser }/>  
+        <div className = {this.state.openUser ? "openUser" : ""}>
+          <p>{`${name}  ${lastName}`}</p>
+          <p><Link className = "d-block">Мои отзывы</Link></p>
+          {/* <Link className = "d-block">Регистрация</Link> */}
+          <Link className = "d-block" to="/LoginPage">Войти</Link>    
+        </div>
       </div>
     );
   }
