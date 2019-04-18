@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import{Link} from "react-router-dom";
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
+import  PT from 'prop-types';
 
 import './styles/var.css';
 import './styles/RaitingPlace.css';
@@ -28,6 +29,9 @@ class RaitingPlace extends Component {
   }
 
   render() {
+    const {commentsCount,raiting} = this.props;
+  
+
     return (
       <div className="RaitingPlace col col-4  text-left">
             <h5>Рейтинг</h5>
@@ -39,13 +43,13 @@ class RaitingPlace extends Component {
                       toggleDisable = {this.toggleDisable}
                       val ="за все время"></Button>
           <div>
-          <Rater total={5} rating={3} interactive={false}>
+          <Rater total={5} rating={raiting} interactive={false} className = "stars">
 				  </Rater>
           </div>
         <div class = "commentBlock">
-        <h1 class = "commentAmount">20</h1>
+        <h1 class = "commentAmount">{commentsCount}</h1>
         <p>отзывов</p>
-        <Rater total={5} rating={0} >
+        <Rater total={5} rating={0}  className = "stars">
 				</Rater>
           <p><Link to = "/ReviewPage">Оставить отзыв</Link></p>
    
@@ -55,4 +59,9 @@ class RaitingPlace extends Component {
   }
 }
 
+
+RaitingPlace.propTypes = {
+  raiting: PT.string.isRequired,
+  comments: PT.array.isRequired,
+}
 export default RaitingPlace;

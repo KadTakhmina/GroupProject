@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import  { Link } from 'react-router-dom';
+import  PT from 'prop-types';
 
 import RaitingPlace from './RaitingPlace';
 import ButtonsBlock from './ButtonsBlock';
@@ -11,11 +12,17 @@ import './styles/AboutPlace.css';
 
 class AboutPlace extends Component {
   render() {
+    const {name,pricePerPerson,comments,raiting} = this.props;
+  
     return (
       <div className="AboutPlace container">     
         <div className="row AboutPlaceInfo">
           <div class = "col col-lg-6 placeInfoBlock">
+<<<<<<< HEAD
               <h5>Restaurants Name</h5>
+=======
+              <h5>{name}</h5>
+>>>>>>> 94a5a12c112d500be147bb99de78960907c7be26
               <span class = "place">Ресторан</span>
               <br/>
             <div class = "addressBlock">
@@ -23,15 +30,21 @@ class AboutPlace extends Component {
                 <Link  className = "d-block"><i class="fa fa-phone"></i> Показать телефон</Link>
             </div>
             <br/>
-            <p class = "place-extra-info"><b>Средний счёт на человека:</b>	400–500 сом</p>
+            <p class = "place-extra-info"><b>Средний счёт на человека:</b> {pricePerPerson}</p>
             <p class = "place-extra-info"><b>Время работы:</b>	10:00–23:00, без выходных</p>
-            <ButtonsBlock/>
+            <ButtonsBlock />
           </div>
-          <RaitingPlace/>
+          <RaitingPlace commentsCount = {comments.length} raiting = {raiting}/>
         </div> 
       </div>
     );
   }
+}
+AboutPlace.propTypes = {
+  name : PT.string.isRequired,
+  pricePerPerson: PT.string.isRequired,
+  raiting: PT.string.isRequired,
+  comments: PT.array.isRequired,
 }
 
 export default AboutPlace;

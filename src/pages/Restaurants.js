@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel,BgCarousel,Description} from "../components";
 
@@ -9,28 +8,30 @@ class Restaurants extends Component {
     super()
     this.state = {
       
-        results: []
+        results: [],
+        currentData:JSON.parse(localStorage.getItem("currentEdit"))
     }
     
   }
-  componentWillMount() {
-    axios.get(`https://api.myjson.com/bins/l35u8`)
-    .then(res => {
-       
-      this.setState({ results: res.data });
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+  componentDidMount() {
+   this.setState({
+    currentData:JSON.parse(localStorage.getItem("currentEdit"))
+   });
   }
   render() {
     return (
       <Layout>
-        <Description/>
-        <BgCarousel/>
-				<AboutPlace/> 
+        <Description name = {this.state.currentData[0].name}
+                    description = {this.state.currentData[0].description}
+        />
+        <BgCarousel album = {this.state.currentData[0].album} />
+				<AboutPlace name = {this.state.currentData[0].name}
+                    pricePerPerson = {this.state.currentData[0].pricePerPerson}
+                    raiting = {this.state.currentData[0].raiting}
+                    comments = {this.state.currentData[0].comments}
+        /> 
          <Map/>
-        <CommentCarousel results= {this.state.results}/>
+        <CommentCarousel comments = {this.state.currentData[0].comments}/>
         <SimilarPlace/>
 			</Layout>
     );
