@@ -8,7 +8,7 @@ class StickyHeader extends Component {
   render() {
     return (
       <div className="StickyHeader">
-            <nav class="navbar navbar-expand-lg  bg-white ">
+            <nav class="navbar navbar-expand-md  bg-white ">
               <button
                 class="navbar-toggler"
                 data-toggle="collapse"
@@ -16,7 +16,12 @@ class StickyHeader extends Component {
               >
                 <span class="navbar-toggler-icon" />
               </button>
-
+{/* 
+            <div class="collapse navbar-collapse" id="collapse_target">
+               <Link class="navbar-brand">vnfdj</Link>
+               <span class="navbar-text">cdckc</span>
+            </div> */}
+            
               <ul class="navbar-nav">
               <li class="nav-item">
                   <Link class="nav-link" to="/">
