@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from "./Header";
 import StickyHeader from "./StickyHeader";
 import Footer from "./Footer";
+import VideoBg from './VideoBg';
 
 
 
@@ -14,6 +15,7 @@ class Layout extends Component {
 			  <Header/>
 		  	<StickyHeader/>
         {this.props.children}
+       
         <Footer/>
       </div>
     );

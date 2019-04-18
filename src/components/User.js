@@ -19,7 +19,7 @@ class User extends Component {
         <Link className = "d-block">Регистрация</Link>
         <Link className = "d-block">Войти</Link>    
       </div>
-       <img src={photo} alt = "User"/>  
+       <img src={photo} alt = "User"/>
       </div>
     );
   }
