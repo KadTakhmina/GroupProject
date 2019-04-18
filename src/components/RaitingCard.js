@@ -15,7 +15,7 @@ class RaitingCard extends Component {
 		}
 	}
   render() {
-		const {resultsImg,commentsCount,raitingsCount,resultsName,comments} = this.props;
+		const {resultsImg,commentsCount,raitingsCount,resultsName,comments,goToDescription} = this.props;
 			
     return (
 				<div className="RaitingCard row py-3">
@@ -24,6 +24,7 @@ class RaitingCard extends Component {
 						commentsCount= {commentsCount}	
 						resultsName= {resultsName}
 						raitingsCount = {raitingsCount}	
+						goToDescription = {goToDescription}
 						/>
 				<RaitingComments  
 					comments = {comments[0]}	
@@ -38,6 +39,7 @@ RaitingCard.propTypes = {
 	resultsImg:PT.string.isRequired,
 	commentsCount:PT.string.isRequired,
 	resultsName:PT.string.isRequired,
+	goToDescription: PT.func.isRequired
 	
 }
 

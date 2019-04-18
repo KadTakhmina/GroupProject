@@ -29,3 +29,8 @@
     font-weight: 600;
     font-size: 1.5em;
 }
+
+.RaitingImg .resultsHoverBlock .resultsName:hover {
+    color: #fff;
+    text-decoration: underline;
+}

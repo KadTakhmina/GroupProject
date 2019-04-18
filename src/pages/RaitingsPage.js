@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import {Redirect} from "react-router-dom";
+
+
 import {Layout,RaitingNav,RaitingCard} from "../components";
 
 class RaitingsPage extends Component {
@@ -7,9 +10,12 @@ class RaitingsPage extends Component {
 	 super()
 	 this.state = {
 		 
-			 results: []
+			 results: [],
+			 currentEdit: [],
+			redirect: false
 	 }
-	 
+	 this.goToDescription = this.goToDescription.bind(this);
+		this.renderRedirect = this.renderRedirect.bind(this);
  }
 
 componentWillMount() {
@@ -23,6 +29,25 @@ componentWillMount() {
   });
 }
 
+renderRedirect()  {
+	if (this.state.redirect) {
+		return <Redirect to='/viewPage' />
+	}
+}	
+
+componentDidUpdate() {
+	localStorage.setItem("currentEdit", JSON.stringify(this.state.currentEdit));
+}
+
+
+goToDescription(id) {
+	this.setState({
+		currentEdit: this.state.results.filter(ce => ce.id === id),
+		redirect:true
+	});
+	
+}
+
 
   render() {
     return (
@@ -32,16 +57,18 @@ componentWillMount() {
 			{this.state.results.map(i => {
 		
 				return(<RaitingCard 
-										key =  {this.state.results.length} 
+										key =  {i.id} 
 										resultsImg = {i.album[0]}
 									  resultsName = {i.name}
 									  raitingsCount = {i.raiting}
 										commentsCount= {this.state.results.length} 
-										comments= {i.comments} />)
+										comments= {i.comments} 
+										goToDescription = {() => {this.goToDescription(i.id)}}
+										/>)
 			})}
 			</div>
 			
-			
+			{this.renderRedirect()}
 			</Layout>		
     );
   }
