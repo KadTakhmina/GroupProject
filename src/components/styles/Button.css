@@ -1,7 +1,6 @@
 .Button {
     background: var(--main-color);
     margin: 10px;
-    width: 100px;
     font-weight: 600;
     color: #fff;
 }
