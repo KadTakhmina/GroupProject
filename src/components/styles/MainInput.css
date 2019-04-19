@@ -6,6 +6,8 @@
 
 .MainInput p {
     font-size: 3em;
+    color: white;
+    font-weight: 600;
 }
 
 .MainInput input {
