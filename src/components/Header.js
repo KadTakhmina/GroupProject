@@ -45,7 +45,6 @@ class Header extends Component {
         <LoginPage openLogin = {this.state.openLogin}/>
       </div>
       </div>
-      
     );
   }
 }
