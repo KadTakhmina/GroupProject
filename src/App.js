@@ -17,6 +17,7 @@ class App extends Component {
             <Route path="/restauranRatings" exact component={RaitingsPage} />
             <Route path="/ReviewPage" exact component={ReviewPage} />
             <Route path="/LoginPage" exact component={LoginPage} />
+            
           </Switch>
         </BrowserRouter>
       </div>

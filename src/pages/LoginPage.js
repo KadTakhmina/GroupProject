@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 import '../components/styles/LoginPage.css';
-import { Layout } from '../components';
+import  Layout from '../components/Layout';
+import  Button from '../components/Button';
 
 
 
 class LoginPage extends Component {
 
   render() {
-   
+  //  const  {openLogin} = this.props;
     return (
       <Layout>
         <div className="LoginPage col-12 col-md-12 ">
@@ -17,7 +18,7 @@ class LoginPage extends Component {
             <a class="hiddenanchor" id="tologin"></a>
             <div id="wrapper">
                 <div id="login" class="animate form">
-                    <form  action="mysuperscript.php" autocomplete="on"> 
+                    <form  action="" autocomplete="on"> 
                         <i class="fa fa-times-circle close"></i>
                         <h1>Вход</h1> 
                         <p> 
@@ -33,7 +34,7 @@ class LoginPage extends Component {
                            <label for="loginkeeping">Запомнить меня</label>
                         </p>
                         <p class="login button"> 
-                          <input type="submit" value="Войти" /> 
+                          <Button val="Войти"/> 
                         </p>
                         <p class="change_link">
                            Не зарегистрированы еще ?
@@ -63,7 +64,7 @@ class LoginPage extends Component {
                               <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="123456"/>
                           </p>
                               <p class="signin button"> 
-                              <input type="submit" value="Регистрация"/> 
+                              <Button val="Регистрация"/> 
                           </p>
                           <p class="change_link">  
                               Уже зарегистрированы ?
