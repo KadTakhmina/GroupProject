@@ -14,7 +14,6 @@ class RaitingImg extends Component {
  
   render() {
 		const {resultsImg,commentsCount,resultsName,raitingsCount,goToDescription} = this.props;
-		console.log(raitingsCount);
     return (
 			<div className="RaitingImg 	 col-lg-6 col-sm-12 col-md-7">
 				<img class = "w-100 h-100  resultsImg" alt = "results" src ={resultsImg}/>

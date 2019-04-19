@@ -18,7 +18,11 @@ class AboutPlace extends Component {
       <div className="AboutPlace container">     
         <div className="row AboutPlaceInfo">
           <div class = "col col-lg-6 placeInfoBlock">
+<<<<<<< HEAD
               <h5>Restaurants Name</h5>
+=======
+              <h5>{name}</h5>
+>>>>>>> 17e8b7f92fb4faeceb5c49d6e51194ac52e9a0a9
               <span class = "place">Ресторан</span>
               <br/>
             <div class = "addressBlock">

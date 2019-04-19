@@ -2,17 +2,16 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background: #ccc;
-    color: var(--main-color);
+    background: #ecf0f1;
     z-index: 500;
-}
-.StickyHeader ul {
-    margin-left: 20%;
+    font-weight: 600;
 }
 
 .StickyHeader ul li {
-    padding-left: 35px;
-    padding-top: 15px;
+    padding: 0.5em 1em;
     font-size: 18px;
-   
+}
+
+.navBarToggler {
+    background: #fff;
 }

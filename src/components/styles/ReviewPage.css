@@ -1,3 +1,11 @@
+.ReviewPage {
+    text-align: start;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    /* width: 600px; */
+   
+}
+
 .aboutPlace {
     display: flex;
     margin: 10px;
@@ -5,19 +13,15 @@
 }
 
 .mainContainer {
-    width: 600px;
-    margin-left: 30%;
+    /* margin-left: 27%; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
 }
 
 .img {
     height: inherit;
 }
 
-.ReviewPage {
-    text-align: start;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
 
 .place_image {
     height: 150px;
@@ -42,5 +46,20 @@
 
 .reviewForm {
     height: 100px;
-    width: 500px;
+    width: 80%;
+}
+
+.dishes {
+    margin: 30px 0;
+}
+.dishes input {
+    width: 80%;
+    height: 40px;
+}
+.send {
+    margin-bottom: 25px;
+    background: #3498DB;
+    width: 120px;
+    font-weight: 600;
+    color: #fff;
 }
