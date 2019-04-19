@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
-import './styles/LoginPage.css';
-import  Layout from './Layout';
-import  Button from './Button';
+import '../components/styles/LoginPage.css';
+import  Layout from '../components/Layout';
+import  Button from '../components/Button';
 
 
 
 class LoginPage extends Component {
 
   render() {
-   const  {openLogin} = this.props;
+  //  const  {openLogin} = this.props;
     return (
       <Layout>
         <div className="LoginPage col-12 col-md-12 ">
           <div id="container_demo" >
             <a class="hiddenanchor" id="toregister"></a>
             <a class="hiddenanchor" id="tologin"></a>
-            <div className = {`wrapper ${openLogin? "openLogin" : ""}`}>
+            <div id="wrapper">
                 <div id="login" class="animate form">
                     <form  action="" autocomplete="on"> 
                         <i class="fa fa-times-circle close"></i>

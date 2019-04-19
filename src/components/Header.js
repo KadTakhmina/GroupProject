@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import HeaderInput from "./HeaderInput";
-import LoginPage from "./LoginPage";
+import LoginPage from "../pages/LoginPage";
 import User from "./User";
 import userPhoto from "../img/user.svg"
 import "./styles/Header.css"
@@ -17,17 +17,18 @@ class Header extends Component {
     this.state = {
      userPhoto: userPhoto,
      userName:"Имя",
-     userLastName: "Пользователя",
-     openLogin: false
+     userLastName: "Пользователя"
+    //  openLogin: false
     }
+  }
 
-    this.toggleLogin =   this.toggleLogin.bind(this);
-  }
-  toggleLogin() {
-    this.setState({
-      openLogin: !this.state.openLogin,
-    })
-  }
+  //   this.toggleLogin =   this.toggleLogin.bind(this);
+  // }
+  // toggleLogin() {
+  //   this.setState({
+  //     openLogin: !this.state.openLogin,
+  //   })
+  // }
 
   render() {
     return (
@@ -40,9 +41,9 @@ class Header extends Component {
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
-              toggleLogin = {this.toggleLogin}
+
                />   
-        <LoginPage openLogin = {this.state.openLogin}/>
+       
       </div>
       </div>
     );
