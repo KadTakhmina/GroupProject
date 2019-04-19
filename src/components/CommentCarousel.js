@@ -13,7 +13,7 @@ class CommentCarousel extends Component {
     return (
      
      <Slider>
-        {results.map((comment, index) => <div key={index} className = "CommentCarousel row text-center ">
+        {comments.map((comment, index) => <div key={index} className = "CommentCarousel row text-center ">
         <div className = " col-lg-4 col-md-4 col-12 ">
         <p className ="commentsOwnerPhoto"><img className= "img-fluid" src={comment.photo} alt="commentsOwnerPhoto"/></p> 
         </div>
