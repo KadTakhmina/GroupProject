@@ -2,32 +2,33 @@
 
 html,
 body {
-    width: 100vw;
-    height: 100vh;
+   
     margin: 0;
 }
 
-#videoBG {
-    position: fixed;
-    z-index: -1;
+.VideoBg {
+    position: absolute;
+    z-index: -1000;
+    height: 1000px;
+    background-size: cover;
 }
 
 @media (min-aspect-ratio: 16/9) {
-    #videoBG {
+    .VideoBg {
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    #videoBG {
+    .VideoBg {
         width: auto;
         height: 100%;
     }
 }
 
 @media (max-width: 767px) {
-    #videoBG {
+    .VideoBg {
         display: none;
     }
 }
