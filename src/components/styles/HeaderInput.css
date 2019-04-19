@@ -1,6 +1,6 @@
 .HeaderInput input {
     height: 2.5em;
-    background: var(--main-color);
+    /* background: var(--main-color); */
     color: #fff;
     border-radius: var(--input-border-radius);
     outline: none;
