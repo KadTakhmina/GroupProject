@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component ,Fragment} from 'react';
 
 
 import {Layout,Carousel,MainInput,VideoBg} from "../components";
@@ -8,11 +8,14 @@ class SearchPage extends Component {
  
   render() {
     return (
-      <Layout>
-        <Carousel/>
-        <MainInput/>
+      <Fragment>
         <VideoBg/>
+      <Layout> 
+        {/* <Carousel/> */}
+        <MainInput/>
       </Layout>
+      </Fragment>
+      
     );
   }
 }
