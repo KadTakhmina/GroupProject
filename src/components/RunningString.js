@@ -4,6 +4,14 @@ import "./styles/var.css";
 // import './styles/SimilarPlace.css';
 
 class RunningString extends Component {
+  // constructor() {
+  //   super();
+  //   this.state= {
+
+  //   }
+  // }
+
+
   render() {
     return (
     //   <body >

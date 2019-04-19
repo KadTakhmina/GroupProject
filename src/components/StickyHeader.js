@@ -16,7 +16,7 @@ class StickyHeader extends Component {
               >
                 <span class="navbar-toggler-icon" />
               </button>
-{/* 
+            {/* 
             <div class="collapse navbar-collapse" id="collapse_target">
                <Link class="navbar-brand">vnfdj</Link>
                <span class="navbar-text">cdckc</span>
