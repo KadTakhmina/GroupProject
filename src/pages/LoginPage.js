@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '..components/styles/LoginPage.css';
+import '../components/styles/LoginPage.css';
 import  Layout from '../components/Layout';
 import  Button from '../components/Button';
 
