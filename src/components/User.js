@@ -12,7 +12,7 @@ class User extends Component {
 
     return (
       <div class="dropdown">
-        <a class="btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="btn Loginimg" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            <img src={photo} alt = "User"/>
         </a>
         <div class="dropdown-menu login-menu" aria-labelledby="dropdownMenuLink">
@@ -46,7 +46,7 @@ class User extends Component {
                 
               </div>
               <div class="modal-footer button">
-                <p class="btn"><Button val="Войти"/></p>
+                <p class="btn" data-toggle="modal" data-target="#exampleModalLong"><Button val="Войти"/></p>
                 {/* <p class="btn" data-dismiss="modal"><Button val="Закрыть"/></p> */}
                 
               </div>

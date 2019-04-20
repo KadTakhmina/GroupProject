@@ -4,7 +4,7 @@ import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import  PT from "prop-types"
+
 
 import "./styles/CommentCarousel.css";
 
@@ -31,9 +31,5 @@ class CommentCarousel extends Component {
     );
   }
 }
-CommentCarousel.propTypes = {
-  comments: PT.array.isRequired
-}
-
 
 export default CommentCarousel;

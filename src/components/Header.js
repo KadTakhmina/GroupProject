@@ -18,31 +18,25 @@ class Header extends Component {
      userPhoto: userPhoto,
      userName:"Имя",
      userLastName: "Пользователя"
-    //  openLogin: false
     }
   }
 
-  //   this.toggleLogin =   this.toggleLogin.bind(this);
-  // }
-  // toggleLogin() {
-  //   this.setState({
-  //     openLogin: !this.state.openLogin,
-  //   })
-  // }
-
   render() {
     return (
-      <div className = "row ">
-        {/* <div className="Header container">
-        <img className = "logo col-2"
+      <div className = "container ">
+        <div className="Header row">
+        {/* <img className = "logo col-2"
         alt ="logo"/> */}
         {/* <HeaderInput /> */}
-        {/* <User 
+        <div className  = "col-lg-12 col-md-12 col-12 ">
+        <User
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
-               />    */} 
-      {/* </div> */}
+
+               />   
+       </div> 
+      </div>
       </div>
     );
   }

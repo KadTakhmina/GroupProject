@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
+import{Link} from "react-router-dom";
 
 import '../components/styles/ReviewPage.css';
 import { Layout } from '../components';
@@ -43,7 +44,7 @@ class ReviewPage extends Component {
             <input type = "text"/>
           </div>
           
-          <input className="send btn btn-primary" type="submit"/>
+          <Link to = "/restauranRatings"><input className="send btn btn-primary" type="submit"/></Link>
           </div>
         </div>
       </Layout>
