@@ -23,14 +23,6 @@ class StickyHeader extends Component {
      
       <div className="StickyHeader ">
        <nav className="navbar navbar-expand-lg container">
-        {/* <Link class="navbar-brand" to="/" >logo </Link> */}
-
-
-        {/* <User 
-              name = {this.state.userName}
-              lastName = {this.state.userLastName}
-              photo = {this.state.userPhoto}
-               />    */}
         <button class="navbar-toggler navBarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
