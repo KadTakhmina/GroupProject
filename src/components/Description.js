@@ -57,7 +57,7 @@ class Description extends Component {
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary">Забронировать</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Забронировать</button>
                 </div>
               </div>
             </div>

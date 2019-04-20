@@ -30,7 +30,7 @@ class AboutPlace extends Component {
             <p class = "place-extra-info"><b>Время работы:</b>	10:00–23:00, без выходных</p>
             <ButtonsBlock />
           </div>
-          <RaitingPlace commentsCount = {comments.length} raiting = {raiting}/>
+          <RaitingPlace commentsCount = {comments.length} raiting = {raiting} />
         </div> 
       </div>
     );

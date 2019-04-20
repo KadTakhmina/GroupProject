@@ -8,6 +8,7 @@ body {
     z-index: -1000;
     height: 1000px;
     background-size: cover;
+    
    
 }
 #background-video {
@@ -30,6 +31,7 @@ body {
 
 @media (max-width: 767px) {
     .VideoBg {
-        display: none;
+        width: auto;
+        height: auto;
     }
 }

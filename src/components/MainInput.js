@@ -9,12 +9,12 @@ class MainInput extends Component {
     return (
 			<div className = " container">
 				<form action="" className = "MainInput row">
-			<label htmlFor="" className  = "col-12">
-				<p>Что Вы ищете?</p>
-				<input type="text" className  = "col-12"/>
-			</label>
-			
-		</form>
+				<label htmlFor="" className  = "col-lg-12 col-md-12 col-12 ">
+					<p className  = "col-lg-12 col-md-12 col-12 ">Что Вы ищете?</p>
+					<input type="text"  className  = "col-lg-12 col-md-12 col-12 "/>
+				</label>
+				
+	    	</form>
 			</div>
     
     );

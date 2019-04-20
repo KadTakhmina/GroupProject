@@ -13,3 +13,7 @@
     border-radius: 5px;
     display: block;
 }
+.Loginimg {
+    float: right;
+    /* margin-left: 100%; */
+}
