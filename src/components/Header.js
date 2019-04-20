@@ -34,16 +34,14 @@ class Header extends Component {
     return (
       <div className = "Header container ">
         <div className=" container row  ">
-        <img className = "logo col-2"
-        alt ="logo"/>
-        <HeaderInput />
-        <User 
+        {/* <img className = "logo col-2"
+        alt ="logo"/> */}
+        {/* <HeaderInput /> */}
+        {/* <User 
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
-
-               />   
-       
+               />    */}
       </div>
       </div>
     );

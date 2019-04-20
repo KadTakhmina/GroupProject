@@ -11,7 +11,6 @@ class SearchPage extends Component {
       <Fragment>
         <VideoBg/>
       <Layout> 
-        {/* <Carousel/> */}
         <MainInput/>
       </Layout>
       </Fragment>
