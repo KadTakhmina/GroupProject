@@ -35,7 +35,7 @@ class Header extends Component {
               photo = {this.state.userPhoto}
 
                />   
-       </div>
+       </div> 
       </div>
       </div>
     );

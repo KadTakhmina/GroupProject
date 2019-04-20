@@ -11,8 +11,6 @@ class SearchPage extends Component {
         <VideoBg/>
         <div className="cover"></div>
       <Layout> 
-       
-        {/* <Carousel/> */}
         <MainInput/>
       </Layout>
       </Fragment>
