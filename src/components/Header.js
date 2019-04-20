@@ -32,26 +32,17 @@ class Header extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
-      <div className = "Header container ">
-        <div className=" container row  ">
-        {/* <img className = "logo col-2"
+      <div className = "row ">
+        {/* <div className="Header container">
+        <img className = "logo col-2"
         alt ="logo"/> */}
         {/* <HeaderInput /> */}
         {/* <User 
-=======
-      <div className = "row ">
-        <div className="Header container">
-        <img className = "logo col-2"
-        alt ="logo"/>
-        {/* <HeaderInput /> */}
-        <User 
->>>>>>> b426fc17c0deaffaca5b9b4717200e23c210e2b5
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
-               />    */}
-      </div>
+               />    */} 
+      {/* </div> */}
       </div>
     );
   }
