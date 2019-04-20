@@ -23,6 +23,7 @@ class StickyHeader extends Component {
      
       <div className="StickyHeader ">
        <nav className="navbar navbar-expand-lg container">
+<<<<<<< HEAD
         <Link class="navbar-brand" to="/" >logo </Link>
 
 
@@ -31,37 +32,40 @@ class StickyHeader extends Component {
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
                />   
+=======
+        {/* <Link class="navbar-brand" to="/" >logo </Link> */}
+>>>>>>> b426fc17c0deaffaca5b9b4717200e23c210e2b5
         <button class="navbar-toggler navBarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <Link class="nav-link" to="/">Главная </Link>
+              <Link class="nav-link link" to="/">Главная </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/">Отели</Link>
+              <Link class="nav-link link" to="/">Отели</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/restauranRatings">Рестораны</Link>
+              <Link class="nav-link link" to="/restauranRatings">Рестораны</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/">Развлечения</Link>
+              <Link class="nav-link link" to="/">Развлечения</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/">Услуги</Link>
+              <Link class="nav-link link" to="/">Услуги</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/">Курсы</Link>
+              <Link class="nav-link link" to="/">Курсы</Link>
             </li>
             <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <Link class="nav-link dropdown-toggle link" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Еще
               </Link>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item" to="/">Подробнее</Link>
-                <Link class="dropdown-item" to="/">Отзывы</Link>
-                <Link class="dropdown-item" to="/">О нас</Link>
+              <div class="dropdown-menu more" aria-labelledby="navbarDropdown">
+                <Link class="dropdown-item link" to="/">Подробнее</Link>
+                <Link class="dropdown-item link" to="/">Отзывы</Link>
+                <Link class="dropdown-item link" to="/">О нас</Link>
               </div>
             </li>
           </ul> 
