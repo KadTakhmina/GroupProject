@@ -5,7 +5,7 @@
         color: #fff;
        
 }
-.Footer img {
+.Footer svg {
     width: 40px;
     padding-left: 15px;
 }
@@ -13,12 +13,13 @@
     margin: .5em 0;
 }
 .footerLink { 
-    color: #ddd;
+    color: #555;
     transition: all 200ms ease;
     
 }
 .footerLink:hover { 
     color: #fff;
+    font-weight: 600;
     
 }       
        
