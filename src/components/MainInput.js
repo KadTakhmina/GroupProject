@@ -10,7 +10,7 @@ class MainInput extends Component {
 			<div className = " container">
 				<form action="" className = "MainInput row">
 				<label htmlFor="" className  = "col-lg-12 col-md-12 col-12 ">
-					<p className  = "col-lg-12 col-md-12 col-12 ">Что Вы ищете?</p>
+					<p className  = "col-lg-12 col-md-12 col-12 ">What are you looking for?</p>
 					<input type="text"  className  = "col-lg-12 col-md-12 col-12 "/>
 				</label>
 				

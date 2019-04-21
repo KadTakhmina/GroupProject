@@ -12,14 +12,14 @@ import "./styles/Header.css"
 
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-     userPhoto: userPhoto,
-     userName:"Имя",
-     userLastName: "Пользователя"
-    }
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //    userPhoto: userPhoto,
+  //    userName:"Имя",
+  //    userLastName: "Пользователя"
+  //   }
+  // }
 
   render() {
     return (
@@ -28,16 +28,16 @@ class Header extends Component {
         {/* <img className = "logo col-2"
         alt ="logo"/> */}
         {/* <HeaderInput /> */}
-        <div className  = "col-lg-12 col-md-12 col-12 ">
-        <User
+        {/* <div className  = "col-lg-12 col-md-12 col-12 "> */}
+        {/* <User
               name = {this.state.userName}
               lastName = {this.state.userLastName}
               photo = {this.state.userPhoto}
 
-               />   
-       </div> 
+               />    */}
+       {/* </div>  */}
       </div>
-      </div>
+       </div>
     );
   }
 }

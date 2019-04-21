@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Fira+Sans+Condensed|Montserrat|PT+Serif');
+
 .StickyHeader {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    color: #fff;
     /* z-index: 500; */
     font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    background: rgba(0,0,0,.1);
+    font-family: 'Montserrat', sans-serif;
 }
-.menu ul {
-    margin-left: 10%;
-}
+/* .menu ul {
+    margin-left: 50%;
+} */
 
-.StickyHeader ul li  {
+.StickyHeader ul li{
     padding: 0.5em 1em;
-    font-size: 18px; 
-    color: #fff;
+    font-size: 1rem; 
 }
 
 .navBarToggler {
@@ -21,8 +24,12 @@
 }
 .more {
     background: transparent;
-    
 }
-/* .link {
-    color: black;
+
+.logo img {
+    width: 10px;
+}
+
+/* .navbar .navbar-expand-lg .container {
+    margin-right: -10%;
 } */
