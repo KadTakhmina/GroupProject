@@ -59,8 +59,7 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              
+            <div class="col-lg-3 col-md-3 col-6">   
               <ul class="list-unstyled text-small text-left">
               <h5>Карта</h5>
                 <li>
@@ -85,9 +84,8 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              
-              <ul class="list-unstyled text-small text-left">
+            <div class="col-lg-3 col-md-3 col-6">    
+              <ul class="list-unstyled text-small text-left col-lg-3 col-md-3 col-6">
               <h5>Заведения</h5>
                 <li>
                   <Link to="/" class="footerLink">
@@ -110,46 +108,44 @@ class Footer extends Component {
                   </Link>
                 </li>
               </ul>
-            </div>
-           
+            </div>        
           </div>
           <Link to="/">
             <img
               class="footer-img"
               alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145802.svg"
+              src="https://img.icons8.com/ios/50/000000/facebook.png"
             />
           </Link>
           <Link to="/">
             <img
               class="footer-img"
               alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145812.svg"
+              src="https://img.icons8.com/ios/50/000000/facebook.png"
             />
           </Link>
           <Link to="/">
             <img
               class="footer-img"
               alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145807.svg"
+              src="https://img.icons8.com/ios/50/000000/facebook.png"
             />
           </Link>
           <Link to="/">
             <img
               class="footer-img"
               alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145813.svg"
+              src="https://img.icons8.com/ios/50/000000/facebook.png"
             />
           </Link>
-          <div class="footer-address">
-            <Link to="https://goo.gl/maps/3irVhq4Zntq" className = "d-block text-white">
+          <div className = "row">
+          <div class="footerInfo col-lg-6 col-md-6 col-12">
+            <Link to="/" className = "d-block text-white">
               г.Бишкек, Кыргызстан
             </Link>
-              <Link to="https://goo.gl/maps/3irVhq4Zntq">
-                service@gmail.com
-              </Link>
-          </div>
-          <div class="footer-copyright py-3">Copyright © 2019</div>
+            <p class=" py-3">Copyright © 2019</p>
+          </div></div>
+          
         </div>
         </footer>
     );

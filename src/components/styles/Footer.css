@@ -3,7 +3,7 @@
         background: 	#0e1111;
         width: 100%;
         color: #fff;
-        font-family: 'Comfortaa', cursive;
+       
 }
 .Footer img {
     width: 40px;
@@ -13,11 +13,12 @@
     margin: .5em 0;
 }
 .footerLink { 
-    color: #ccc;
+    color: #ddd;
     transition: all 200ms ease;
     
 }
 .footerLink:hover { 
     color: #fff;
+    
 }       
        
