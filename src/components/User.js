@@ -22,8 +22,8 @@ class User extends Component {
     return (
       <div class="dropdown">
         <a class="btn Loginimg" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           {/* <img src={photo} alt = "User"/> */}
-           {/* <p style={divStyle}>Login</p> */}
+           {/* <img src={photo} alt = "User"/> 
+            <p style={divStyle}>Login</p> */}
            <p style={{"border": "1px solid grey", "padding": "12px 40px", "color": "white"}}>Sign in</p>
            {/* <p style={{"border": "1px solid grey", "padding": "12px 40px", "color": "white"}}>Sign up</p> */}
         </a>

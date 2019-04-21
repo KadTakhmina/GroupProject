@@ -4,16 +4,12 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* z-index: 500; */
+    z-index: 500;
     font-weight: 600;
     border-bottom: 1px solid rgba(255,255,255,.1);
     background: rgba(0,0,0,.1);
     font-family: 'Montserrat', sans-serif;
 }
-/* .menu ul {
-    margin-left: 50%;
-} */
-
 .StickyHeader ul li{
     padding: 0.5em 1em;
     font-size: 1rem; 
@@ -30,6 +26,3 @@
     width: 10px;
 }
 
-/* .navbar .navbar-expand-lg .container {
-    margin-right: -10%;
-} */
