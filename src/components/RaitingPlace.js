@@ -33,7 +33,7 @@ class RaitingPlace extends Component {
   
 
     return (
-      <div className="RaitingPlace col col-4  text-left">
+      <div className="RaitingPlace col-lg-4 col-md-4 col-12   text-left">
             <h5>Рейтинг</h5>
             <Button isDisabled = {this.state.isDisabled}
                     toggleDisable = {this.toggleDisable}

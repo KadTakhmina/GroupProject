@@ -12,12 +12,12 @@ import './styles/AboutPlace.css';
 
 class AboutPlace extends Component {
   render() {
-    const {name,pricePerPerson,comments,raiting} = this.props;
+    const {name,pricePerPerson,comments,raiting,address,phones} = this.props;
   
     return (
       <div className="AboutPlace container">     
         <div className="row AboutPlaceInfo">
-          <div class = "col col-lg-6 placeInfoBlock">
+          <div class = "col-lg-6 col-md-6 col-12 placeInfoBlock">
               <h5>{name}</h5>
               <span class = "place">Ресторан</span>
               <br/>

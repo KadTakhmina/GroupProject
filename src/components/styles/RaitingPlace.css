@@ -1,5 +1,6 @@
 .RaitingPlace {
     color: var(--main-color);
+    margin-left: 15%;
 }
 
 .RaitingPlace h5 {

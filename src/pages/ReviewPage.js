@@ -35,15 +35,9 @@ class ReviewPage extends Component {
           </div>
           <div className="col-md-12 col-lg-12 col-12">
             <label >Ваши впечатления</label>
-            <br></br>
+            <br/>
             <textarea className="reviewForm"></textarea>
           </div>
-          <div className="dishes col-md-12 col-lg-12 col-12">
-            <label>Какое блюдо рекомендуете</label>
-            <br/>
-            <input type = "text"/>
-          </div>
-          
           <Link to = "/restauranRatings"><input className="send btn btn-primary" type="submit"/></Link>
           </div>
         </div>
