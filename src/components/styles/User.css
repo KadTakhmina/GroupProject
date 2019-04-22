@@ -1,22 +1,14 @@
-.User a {
-    color: #fff;
-}
 
 .User div {
     background: var(--main-color);
     position: absolute;
-    z-index: 1000;
+    z-index: 500;
     top: 100%;
     font-weight: 600;
-    color: #fff;
     padding: 10px;
     border-radius: 5px;
-    display: block;
 }
-.Loginimg {
-    float: right;
-    /* margin-left: 100%; */
-}
-.Login {
-    border: 1px solid red;
+
+.loginDropMenu {
+    background: var(--main-color);
 }

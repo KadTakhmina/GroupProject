@@ -1,6 +1,6 @@
 .RaitingCard {
     height: auto;
-    margin: 1em;
+    margin: 1em 0;
     overflow: hidden;
-    box-shadow: 0 0 1em .3em #ccc;
+    box-shadow: 0 0 1em .3em #ddd;
 }

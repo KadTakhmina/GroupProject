@@ -8,8 +8,6 @@ import "./styles/RaitingImg.css"
 
 
 
-
-
 class RaitingImg extends Component {
  
   render() {

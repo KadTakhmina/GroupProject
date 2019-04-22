@@ -1,21 +1,40 @@
-        .Footer img {
-            width: 40px;
-            padding-left: 15px;
-        }
-        
-        .Footer {
-            background: var(--main-color);
-            width: 100%;
-        }
-        
-        .footer-address a {
-            color: #DDDDDD;
-        }
-        
-        .footer-copyright {
-            color: #DDDDDD;
-        }
-        
-        .Footer hr {
-            background: white;
-        }
+       
+.Footer {
+        background: 	rgba(0,0,0, 0.9);
+        width: 100%;
+        color: #fff;
+  
+}
+
+.Footer .categotyLists li {
+    margin: .5em 0;
+    
+}
+
+
+.socialIcons {
+    display: inline-block;
+    transition: all .5s ease-in-out;
+    border: 2px solid transparent;
+    padding: 0.5em;
+    margin: .8em;
+    
+}
+.socialIcons:hover {
+    border: 2px solid var(--main-color);
+transform: scale(1.2);
+margin: .8em;
+border-radius: 50%;
+}
+.footerLink { 
+    color: #555;
+    transition: all 200ms ease;
+    
+}
+.footerLink:hover { 
+    color: var(--main-color);
+    font-weight: 600;
+    text-decoration: none;
+    
+}       
+       

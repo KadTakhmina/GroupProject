@@ -9,7 +9,6 @@ import  Button from '../components/Button';
 class LoginPage extends Component {
 
   render() {
-  //  const  {openLogin} = this.props;
     return (
       <Layout>
         <div className="LoginPage col-12 col-md-12 ">

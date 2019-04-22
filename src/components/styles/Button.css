@@ -1,5 +1,6 @@
 .Button {
-    background: var(--main-color);
+
+border: 1px solid var(--main-color);
     margin: 10px;
     font-weight: 600;
     color: #fff;
