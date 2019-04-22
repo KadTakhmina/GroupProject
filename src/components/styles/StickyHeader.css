@@ -16,11 +16,34 @@
 .navBarToggler {
     background: #fff;
 }
-.more {
-    background: transparent;
+.headerDropDown {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+   
+}
+.headerDropItem {
+    color: #fff;
+    font-weight: 600;
+    padding: .5em;
+}
+.headerDropItem:hover {
+    background: var(--main-color);
+    color: #fff;
 }
 
 .logo img {
     width: 10px;
 }
+<<<<<<< HEAD
 
+=======
+.headerLinks {
+    color: #fff;
+    transition: all 1s ease-in;
+   
+}
+.activeHeaderLinks {
+    border-bottom:3px solid var(--main-color);
+    color: var(--main-color);
+}
+>>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489

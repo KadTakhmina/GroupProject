@@ -7,11 +7,12 @@
 .RaitingImg:hover .resultsHoverBlock {
     display: block;
     position: sticky;
+    
 }
 
 .RaitingImg .resultsHoverBlock {
     position: absolute;
-    background: rgba(52, 152, 219, .5);
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
     display: none;
     transition: all 5s ease-in-out;
@@ -19,6 +20,7 @@
     height: 50%;
     bottom: 0;
     padding-top: 1em;
+    text-align: center;
 }
 
 .RaitingImg .resultsHoverBlock a {
@@ -28,9 +30,9 @@
 .RaitingImg .resultsHoverBlock .resultsName {
     font-weight: 600;
     font-size: 1.5em;
+    color: var(--main-color);
 }
 
 .RaitingImg .resultsHoverBlock .resultsName:hover {
     color: #fff;
-    text-decoration: underline;
 }

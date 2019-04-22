@@ -1,29 +1,29 @@
-.User a {
-    color: #fff;
-}
-.modalpage {
-    z-index: 1000;
-}
 
 .User div {
     background: var(--main-color);
     position: absolute;
-    z-index: 1000;
+    z-index: 500;
     top: 100%;
     font-weight: 600;
-    color: #fff;
     padding: 10px;
     border-radius: 5px;
-    display: block;
 }
-.Loginimg {
-    float: right;
-    /* margin-left: 100%; */
+.loginDropMenu{
+    padding: 0;
 }
+<<<<<<< HEAD
 .Login {
     border: 1px solid red;
 }
 .modal-backdrop {
     /* bug fix - no overlay */    
     display: none;    
+=======
+.loginDropMenu {
+    background: var(--main-color);
+}
+.userDropDown {
+    color: #fff;
+    font-weight: 600;
+>>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489
 }

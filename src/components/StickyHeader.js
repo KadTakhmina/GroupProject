@@ -1,22 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 import User from "./User";
 import userPhoto from "../img/user.svg"
-
-import "./styles/var.css";
 import "./styles/StickyHeader.css";
 
 class StickyHeader extends Component {
-
-  
-  //user
   constructor() {
     super();
     this.state = {
      userPhoto: userPhoto,
      userName:"Имя",
-     userLastName: "Пользователя"
-    //  openLogin: false
+     userLastName: "Пользователя",
+     actiiveHeaderLink: false
     }
   }
 
@@ -34,13 +30,17 @@ class StickyHeader extends Component {
         <div class="collapse navbar-collapse menu" id="navbarSupp{ortedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <Link class="nav-link link text-white" to="/">Main </Link>
+              <Link class="nav-link link headerLinks activeHeaderLinks" to="/">Main </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link link text-white" to="/">Hotels</Link>
+              <Link class="nav-link link  headerLinks" to="/">Hotels</Link>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
               <Link class="nav-link link text-white" to="/restauranRatings">Restaurants</Link>
+=======
+              <Link class="nav-link link  headerLinks" to="/restauranRatings">Restaurans</Link>
+>>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489
             </li>
             {/* <li class="nav-item">
               <Link class="nav-link link" to="/">Развлечения</Link>
@@ -55,13 +55,13 @@ class StickyHeader extends Component {
               <Link class="nav-link dropdown-toggle link text-white" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               More
               </Link>
-              <div class="dropdown-menu more" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item link text-white" to="/">Развлечения</Link>
-                <Link class="dropdown-item link text-white" to="/">Услуги</Link>
-                <Link class="dropdown-item link text-white" to="/">Курсы</Link>
-                <Link class="dropdown-item link text-white" to="/">Подробнее</Link>
-                <Link class="dropdown-item link text-white" to="/">Отзывы</Link>
-                <Link class="dropdown-item link text-white" to="/">О нас</Link>
+              <div class="dropdown-menu headerDropDown" aria-labelledby="navbarDropdown">
+                <Link class="dropdown-item link headerDropItem" to="/">Развлечения</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Услуги</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Курсы</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Подробнее</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Отзывы</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">О нас</Link>
               </div>
             </li>
           </ul> 

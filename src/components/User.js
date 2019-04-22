@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import  { Link } from 'react-router-dom';
 import  PT from "prop-types"
+
 import  Button from './Button';
 import './styles/User.css';
 import './styles/modalLogin.css';
@@ -13,15 +14,15 @@ class User extends Component {
 
     return (
       <div class="dropdown">
-        <a class="btn Loginimg" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           <p style={{"border": "1px solid grey", "padding": "12px 40px", "color": "white"}}>Sign in</p>
-           {/* <p style={{"border": "1px solid grey", "padding": "12px 40px", "color": "white"}}>Sign up</p> */}
+        <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <Button val = "Войти"/>
+           
         </a>
-        <div class="dropdown-menu login-menu" aria-labelledby="dropdownMenuLink">
-          <p class="dropdown-item" to="/">{`${name}  ${lastName}`}</p>
-          <Link className = "d-block dropdown-item" to  = "/LoginPage">Мои отзывы</Link>
-          <Link className = "d-block dropdown-item btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"> Войти</Link>
-          <Link className = "d-block dropdown-item btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">Регистрация</Link>
+        <div class="dropdown-menu loginDropMenu" aria-labelledby="dropdownMenuLink">
+          <p class="dropdown-item userDropDown" to="/">{`${name}  ${lastName}`}</p>
+          <Link className = "d-block dropdown-item userDropDown" to  = "/LoginPage">Мои отзывы</Link>
+          <Link className = "d-block dropdown-item userDropDown" data-toggle="modal" data-target="#exampleModalLong"> Войти</Link>
+          <Link className = "d-block dropdown-item userDropDown" data-toggle="modal" data-target="#exampleModalScrollable">Регистрация</Link>
         </div>
         <div class="modal fade modalpage" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -55,7 +56,7 @@ class User extends Component {
           </div>
         </div>
 
-        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal fade" id="exampleModalScrollable" tabindex="-2" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -84,7 +85,6 @@ class User extends Component {
               </div>
               <div class="modal-footer button">
                 <p class="btn"><Button val="Продолжить регистрацию"/></p>
-                {/* <p class="btn" data-dismiss="modal"><Button val="Закрыть"/></p> */}
                 
               </div>
             </div>

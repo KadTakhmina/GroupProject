@@ -1,16 +1,30 @@
        
 .Footer {
-        background: 	#0e1111;
+        background: 	rgba(0,0,0, 0.9);
         width: 100%;
         color: #fff;
-       
+  
 }
-.Footer svg {
-    width: 40px;
-    padding-left: 15px;
-}
-.Footer li {
+
+.Footer .categotyLists li {
     margin: .5em 0;
+    
+}
+
+
+.socialIcons {
+    display: inline-block;
+    transition: all .5s ease-in-out;
+    border: 2px solid transparent;
+    padding: 0.5em;
+    margin: .8em;
+    
+}
+.socialIcons:hover {
+    border: 2px solid var(--main-color);
+transform: scale(1.2);
+margin: .8em;
+border-radius: 50%;
 }
 .footerLink { 
     color: #555;
@@ -18,8 +32,9 @@
     
 }
 .footerLink:hover { 
-    color: #fff;
+    color: var(--main-color);
     font-weight: 600;
+    text-decoration: none;
     
 }       
        

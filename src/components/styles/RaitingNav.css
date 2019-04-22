@@ -3,14 +3,14 @@
         height: 2em;
         width: 10em;
         background: var(--main-color);
-        color: #fff;
-        padding: 0 1.5em;
+        padding: 0 1em;
         position: relative;
         display: inline-block;
-        font-size: 20px;
         cursor: pointer;
-        border-radius: 5px;
         font-weight: 600;
+        color: #fff;
+        transition: all 1s ease;
+         padding:0 .8em;
     }
     
     .resultCategories {
@@ -21,22 +21,20 @@
         left: 0;
         top: 95%;
         z-index: 1;
-        transition: all .3s ease;
     }
     
     .openDropDown {
         display: block;
+        transform:translateY(2px);
+        transition: all 5s ease;
     }
     
     .resultCategories div {
-        padding: .7em;
+        padding: .8em;
         cursor: pointer;
     }
     
-    .resultCategories div:hover {
-        background: blue;
-    }
-    
+   
     .selected {
         border-radius: 5px;
         line-height: 2em;

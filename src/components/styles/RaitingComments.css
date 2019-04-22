@@ -1,5 +1,6 @@
 .RaitingComments {
-    margin: 2em 0;
+    margin: 3em 1em;
+    border: 1px solid #ccc;
 }
 
 .RaitingComments .ownerPhotoBox {
@@ -7,6 +8,9 @@
     height: 3em;
     border-radius: 50%;
     display: inline-block;
+}
+.impression {
+    
 }
 
 .RaitingComments img {
