@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import  { Link, } from 'react-router-dom';
 import PT from "prop-types";
-import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
 
 import "./styles/RaitingImg.css"
@@ -18,8 +17,7 @@ class RaitingImg extends Component {
 				<div className = "resultsHoverBlock img-fluid">
 					<p onClick = {goToDescription}  className = "resultsName">{`"${resultsName}"`}</p>
 					<div>
-					<Rater total={5} rating={raitingsCount} interactive={false}>
-				</Rater>
+				
 					</div>
 					<Link to = "/" class = "resultsCommentCount">{`${commentsCount} отзыва`}</Link>
 				</div>			

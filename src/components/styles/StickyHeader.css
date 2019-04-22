@@ -17,8 +17,19 @@
 .navBarToggler {
     background: #fff;
 }
-.more {
-    background: transparent;
+.headerDropDown {
+    background: rgba(0,0,0,.7);
+    padding: 0;
+   
+}
+.headerDropItem {
+    color: #fff;
+    font-weight: 600;
+    padding: .5em;
+}
+.headerDropItem:hover {
+    background: var(--main-color);
+    color: #fff;
 }
 
 .logo img {

@@ -51,13 +51,13 @@ class StickyHeader extends Component {
               <Link class="nav-link dropdown-toggle link text-white" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               More
               </Link>
-              <div class="dropdown-menu more" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item link text-white" to="/">Развлечения</Link>
-                <Link class="dropdown-item link text-white" to="/">Услуги</Link>
-                <Link class="dropdown-item link text-white" to="/">Курсы</Link>
-                <Link class="dropdown-item link text-white" to="/">Подробнее</Link>
-                <Link class="dropdown-item link text-white" to="/">Отзывы</Link>
-                <Link class="dropdown-item link text-white" to="/">О нас</Link>
+              <div class="dropdown-menu headerDropDown" aria-labelledby="navbarDropdown">
+                <Link class="dropdown-item link headerDropItem" to="/">Развлечения</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Услуги</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Курсы</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Подробнее</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">Отзывы</Link>
+                <Link class="dropdown-item link headerDropItem" to="/">О нас</Link>
               </div>
             </li>
           </ul> 
