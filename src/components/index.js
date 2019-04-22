@@ -20,6 +20,8 @@ export {default as CommentCarousel}  from "./CommentCarousel";
 export {default as BgCarousel}  from "./BgCarousel";
 export {default as VideoBg}  from "./VideoBg";
 export {default as Categories}  from "./Categories";
+export {default as Heading}  from "./Heading";
+
 
 
 
