@@ -11,7 +11,7 @@ class Description extends Component {
   constructor() {
     super();
     this.state = {
-      btn: "Заказать",
+      btn: "instagram",
     }
   }
   render() {
@@ -19,7 +19,7 @@ class Description extends Component {
     return (
       <div className = "Description container">
         <div className=" row">
-         <h3 className="col col-lg-12  ">{`"${name}"`}</h3>
+         <h3 className="col col-lg-12 text-center ">{`"${name}"`}</h3>
          <div className="col col-lg-12 DescriptionNav" >
             <Link className = "d-inline-block mx-2" to = "/">Описание</Link>
             <Link className = "d-inline-block mx-2" to = "/">Отзывы</Link>

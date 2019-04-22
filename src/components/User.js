@@ -19,10 +19,10 @@ class User extends Component {
            
         </a>
         <div class="dropdown-menu loginDropMenu" aria-labelledby="dropdownMenuLink">
-          <p class="dropdown-item" to="/">{`${name}  ${lastName}`}</p>
-          <Link className = "d-block dropdown-item" to  = "/LoginPage">Мои отзывы</Link>
-          <Link className = "d-block dropdown-item btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"> Войти</Link>
-          <Link className = "d-block dropdown-item btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">Регистрация</Link>
+          <p class="dropdown-item userDropDown" to="/">{`${name}  ${lastName}`}</p>
+          <Link className = "d-block dropdown-item userDropDown" to  = "/LoginPage">Мои отзывы</Link>
+          <Link className = "d-block dropdown-item userDropDown" data-toggle="modal" data-target="#exampleModalLong"> Войти</Link>
+          <Link className = "d-block dropdown-item userDropDown" data-toggle="modal" data-target="#exampleModalScrollable">Регистрация</Link>
         </div>
         <div class="modal fade modalpage" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">

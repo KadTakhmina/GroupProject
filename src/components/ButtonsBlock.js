@@ -10,7 +10,7 @@ class ButtonsBlock extends Component {
   constructor() {
     super();
     this.state = {
-      btn1: "Заказать",
+      btn1: "Instagram",
       btn2: "Адрес"
     }
   }
