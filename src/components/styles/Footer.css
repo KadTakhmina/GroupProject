@@ -1,21 +1,25 @@
-        .Footer img {
-            width: 40px;
-            padding-left: 15px;
-        }
-        
-        .Footer {
-            background: var(--main-color);
-            width: 100%;
-        }
-        
-        .footer-address a {
-            color: #DDDDDD;
-        }
-        
-        .footer-copyright {
-            color: #DDDDDD;
-        }
-        
-        .Footer hr {
-            background: white;
-        }
+       
+.Footer {
+        background: 	#0e1111;
+        width: 100%;
+        color: #fff;
+       
+}
+.Footer svg {
+    width: 40px;
+    padding-left: 15px;
+}
+.Footer li {
+    margin: .5em 0;
+}
+.footerLink { 
+    color: #555;
+    transition: all 200ms ease;
+    
+}
+.footerLink:hover { 
+    color: #fff;
+    font-weight: 600;
+    
+}       
+       

@@ -9,149 +9,145 @@ class Footer extends Component {
         <div className="container py-5">
           <div class="row">
             <div class="col-lg-3 col-md-3 col-6">
+              <ul class="list-unstyled text-small text-left">
               <h5>О нас</h5>
-              <ul class="list-unstyled text-small">
                 <li>
-                  <Link to="/" class="text-white" >
+                  <Link to="/" class="footerLink" >
                     O сервисе
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" class="text-white">
+                  <Link to="/" class="footerLink">
                     O нас
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" class="text-white">
+                  <Link to="/" class="footerLink">
                     Контакты
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" class="text-white">
-                    Материалы
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <h5>Контакты</h5>
-              <ul class="list-unstyled text-small">
-                <li>
-                  <Link to="/" class="text-white">
-                    Наша команда
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Что мы делаем
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Больше
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Новости
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <h5>Карта</h5>
-              <ul class="list-unstyled text-small">
-                <li>
-                  <Link to="/" class="text-white">
-                    Карта
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Поиск
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Новости
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Контакты
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <h5>Заведения</h5>
-              <ul class="list-unstyled text-small">
-                <li>
-                  <Link to="/" class="text-white">
-                    Рестораны
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Отели
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
-                    Курсы
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" class="text-white">
+                  <Link to="/" class="footerLink">
                     Подробнее
                   </Link>
                 </li>
               </ul>
             </div>
-           
+            <div class="col-lg-3 col-md-3 col-6">
+              
+              <ul class="list-unstyled text-small text-left">
+              <h5>Новости</h5>
+                <li >
+                  <Link to="/" class="footerLink">
+                    Новости
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Рейтинги
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                   Отзывы
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Поиск
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">   
+              <ul class="list-unstyled text-small text-left">
+              <h5>Карта</h5>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Карта
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Поиск
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Места
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Контакты
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">    
+              <ul class="list-unstyled text-small text-left col-lg-3 col-md-3 col-6">
+              <h5>Заведения</h5>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Рестораны
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Отели
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Курсы
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" class="footerLink">
+                    Услуги
+                  </Link>
+                </li>
+              </ul>
+            </div>        
           </div>
-          <Link to="/">
-            <img
-              class="footer-img"
-              alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145802.svg"
-            />
-          </Link>
-          <Link to="/">
-            <img
-              class="footer-img"
-              alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145812.svg"
-            />
-          </Link>
-          <Link to="/">
-            <img
-              class="footer-img"
-              alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145807.svg"
-            />
-          </Link>
-          <Link to="/">
-            <img
-              class="footer-img"
-              alt="icon"
-              src="https://image.flaticon.com/icons/svg/145/145813.svg"
-            />
-          </Link>
-          <div class="footer-address">
-            <Link to="https://goo.gl/maps/3irVhq4Zntq">
+         
+          <div className = "row">
+          
+          <div class="footerInfo col-lg-6 col-md-6 col-12">
+            <Link to="/" className = "d-block text-white">
               г.Бишкек, Кыргызстан
             </Link>
-            <br />
-            <div class="footer-gmail">
-              <Link to="https://goo.gl/maps/3irVhq4Zntq">
-                service@gmail.com
-              </Link>
-              <br />
-            </div>
+            <p class=" py-3">Copyright © 2019</p>
           </div>
-          <hr class="my-4" />
-          <div class="footer-copyright py-3">Copyright © 2019</div>
+          <div class="col-lg-6 col-md-6 col-12">
+            
+          <Link to="/">
+          <svg width="51" height="41" viewBox="0 0 51 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.1211 4.82031C48.2734 5.64062 46.293 6.19141 44.2109 6.44141C46.3359 5.16797 47.9688 3.15234 48.7344 0.753906C46.75 1.92969 44.543 2.78516 42.2031 3.24609C40.3281 1.24609 37.6562 0 34.6992 0C29.0195 0 24.4141 4.60156 24.4141 10.2812C24.4141 11.0859 24.5078 11.8711 24.6836 12.625C16.1367 12.1953 8.5625 8.10156 3.48828 1.87891C2.60156 3.40234 2.09766 5.16797 2.09766 7.05078C2.09766 10.6172 3.91016 13.7656 6.67187 15.6133C4.98437 15.5586 3.39844 15.0938 2.01172 14.3242C2.01172 14.3672 2.01172 14.4102 2.01172 14.4531C2.01172 19.4375 5.55859 23.5898 10.2578 24.5391C9.39844 24.7734 8.48828 24.8984 7.55078 24.8984C6.88672 24.8984 6.24219 24.8359 5.61328 24.7109C6.92578 28.793 10.7227 31.7734 15.2188 31.8555C11.7031 34.6133 7.26953 36.2539 2.44922 36.2539C1.61719 36.2539 0.800782 36.207 0 36.1094C4.54688 39.0312 9.95312 40.7305 15.7617 40.7305C34.6758 40.7305 45.0195 25.0625 45.0195 11.4766C45.0195 11.0313 45.0078 10.582 44.9922 10.1445C47 8.69531 48.7422 6.88281 50.1211 4.82031Z" fill="white"/>
+</svg>
+
+          </Link>
+          <Link to="/">
+          <svg width="51" height="41" viewBox="0 0 51 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.1211 4.82031C48.2734 5.64062 46.293 6.19141 44.2109 6.44141C46.3359 5.16797 47.9688 3.15234 48.7344 0.753906C46.75 1.92969 44.543 2.78516 42.2031 3.24609C40.3281 1.24609 37.6562 0 34.6992 0C29.0195 0 24.4141 4.60156 24.4141 10.2812C24.4141 11.0859 24.5078 11.8711 24.6836 12.625C16.1367 12.1953 8.5625 8.10156 3.48828 1.87891C2.60156 3.40234 2.09766 5.16797 2.09766 7.05078C2.09766 10.6172 3.91016 13.7656 6.67187 15.6133C4.98437 15.5586 3.39844 15.0938 2.01172 14.3242C2.01172 14.3672 2.01172 14.4102 2.01172 14.4531C2.01172 19.4375 5.55859 23.5898 10.2578 24.5391C9.39844 24.7734 8.48828 24.8984 7.55078 24.8984C6.88672 24.8984 6.24219 24.8359 5.61328 24.7109C6.92578 28.793 10.7227 31.7734 15.2188 31.8555C11.7031 34.6133 7.26953 36.2539 2.44922 36.2539C1.61719 36.2539 0.800782 36.207 0 36.1094C4.54688 39.0312 9.95312 40.7305 15.7617 40.7305C34.6758 40.7305 45.0195 25.0625 45.0195 11.4766C45.0195 11.0313 45.0078 10.582 44.9922 10.1445C47 8.69531 48.7422 6.88281 50.1211 4.82031Z" fill="white"/>
+</svg>
+
+          </Link>
+          <Link to="/">
+          <svg width="51" height="41" viewBox="0 0 51 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.1211 4.82031C48.2734 5.64062 46.293 6.19141 44.2109 6.44141C46.3359 5.16797 47.9688 3.15234 48.7344 0.753906C46.75 1.92969 44.543 2.78516 42.2031 3.24609C40.3281 1.24609 37.6562 0 34.6992 0C29.0195 0 24.4141 4.60156 24.4141 10.2812C24.4141 11.0859 24.5078 11.8711 24.6836 12.625C16.1367 12.1953 8.5625 8.10156 3.48828 1.87891C2.60156 3.40234 2.09766 5.16797 2.09766 7.05078C2.09766 10.6172 3.91016 13.7656 6.67187 15.6133C4.98437 15.5586 3.39844 15.0938 2.01172 14.3242C2.01172 14.3672 2.01172 14.4102 2.01172 14.4531C2.01172 19.4375 5.55859 23.5898 10.2578 24.5391C9.39844 24.7734 8.48828 24.8984 7.55078 24.8984C6.88672 24.8984 6.24219 24.8359 5.61328 24.7109C6.92578 28.793 10.7227 31.7734 15.2188 31.8555C11.7031 34.6133 7.26953 36.2539 2.44922 36.2539C1.61719 36.2539 0.800782 36.207 0 36.1094C4.54688 39.0312 9.95312 40.7305 15.7617 40.7305C34.6758 40.7305 45.0195 25.0625 45.0195 11.4766C45.0195 11.0313 45.0078 10.582 44.9922 10.1445C47 8.69531 48.7422 6.88281 50.1211 4.82031Z" fill="white"/>
+</svg>
+
+          </Link>
+          <Link to="/">
+          <svg width="51" height="41" viewBox="0 0 51 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.1211 4.82031C48.2734 5.64062 46.293 6.19141 44.2109 6.44141C46.3359 5.16797 47.9688 3.15234 48.7344 0.753906C46.75 1.92969 44.543 2.78516 42.2031 3.24609C40.3281 1.24609 37.6562 0 34.6992 0C29.0195 0 24.4141 4.60156 24.4141 10.2812C24.4141 11.0859 24.5078 11.8711 24.6836 12.625C16.1367 12.1953 8.5625 8.10156 3.48828 1.87891C2.60156 3.40234 2.09766 5.16797 2.09766 7.05078C2.09766 10.6172 3.91016 13.7656 6.67187 15.6133C4.98437 15.5586 3.39844 15.0938 2.01172 14.3242C2.01172 14.3672 2.01172 14.4102 2.01172 14.4531C2.01172 19.4375 5.55859 23.5898 10.2578 24.5391C9.39844 24.7734 8.48828 24.8984 7.55078 24.8984C6.88672 24.8984 6.24219 24.8359 5.61328 24.7109C6.92578 28.793 10.7227 31.7734 15.2188 31.8555C11.7031 34.6133 7.26953 36.2539 2.44922 36.2539C1.61719 36.2539 0.800782 36.207 0 36.1094C4.54688 39.0312 9.95312 40.7305 15.7617 40.7305C34.6758 40.7305 45.0195 25.0625 45.0195 11.4766C45.0195 11.0313 45.0078 10.582 44.9922 10.1445C47 8.69531 48.7422 6.88281 50.1211 4.82031Z" fill="white"/>
+</svg>
+
+          </Link>
+          </div>
+          </div>
+          
         </div>
         </footer>
     );

@@ -1,6 +1,9 @@
 .User a {
     color: #fff;
 }
+.modalpage {
+    z-index: 1000;
+}
 
 .User div {
     background: var(--main-color);
@@ -19,4 +22,8 @@
 }
 .Login {
     border: 1px solid red;
+}
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
 }
