@@ -1,22 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 import User from "./User";
 import userPhoto from "../img/user.svg"
-
-import "./styles/var.css";
 import "./styles/StickyHeader.css";
 
 class StickyHeader extends Component {
-
-  
-  //user
   constructor() {
     super();
     this.state = {
      userPhoto: userPhoto,
      userName:"Имя",
-     userLastName: "Пользователя"
-    //  openLogin: false
+     userLastName: "Пользователя",
+     actiiveHeaderLink: false
     }
   }
 
@@ -34,13 +30,13 @@ class StickyHeader extends Component {
         <div class="collapse navbar-collapse menu" id="navbarSupp{ortedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <Link class="nav-link link text-white" to="/">Main </Link>
+              <Link class="nav-link link headerLinks activeHeaderLinks" to="/">Main </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link link text-white" to="/">Hotels</Link>
+              <Link class="nav-link link  headerLinks" to="/">Hotels</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link link text-white" to="/restauranRatings">Restaurans</Link>
+              <Link class="nav-link link  headerLinks" to="/restauranRatings">Restaurans</Link>
             </li>
             {/* <li class="nav-item">
               <Link class="nav-link link" to="/">Развлечения</Link>
