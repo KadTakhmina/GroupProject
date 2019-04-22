@@ -36,11 +36,7 @@ class StickyHeader extends Component {
               <Link class="nav-link link  headerLinks" to="/">Hotels</Link>
             </li>
             <li class="nav-item">
-<<<<<<< HEAD
-              <Link class="nav-link link text-white" to="/restauranRatings">Restaurants</Link>
-=======
               <Link class="nav-link link  headerLinks" to="/restauranRatings">Restaurans</Link>
->>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489
             </li>
             {/* <li class="nav-item">
               <Link class="nav-link link" to="/">Развлечения</Link>

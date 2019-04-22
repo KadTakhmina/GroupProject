@@ -11,19 +11,13 @@
 .loginDropMenu{
     padding: 0;
 }
-<<<<<<< HEAD
-.Login {
-    border: 1px solid red;
-}
-.modal-backdrop {
-    /* bug fix - no overlay */    
-    display: none;    
-=======
 .loginDropMenu {
     background: var(--main-color);
 }
 .userDropDown {
     color: #fff;
     font-weight: 600;
->>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489
+}
+.modal-backdrop {    
+    display: none;    
 }

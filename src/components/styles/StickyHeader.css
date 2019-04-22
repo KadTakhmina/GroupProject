@@ -34,9 +34,6 @@
 .logo img {
     width: 10px;
 }
-<<<<<<< HEAD
-
-=======
 .headerLinks {
     color: #fff;
     transition: all 1s ease-in;
@@ -46,4 +43,3 @@
     border-bottom:3px solid var(--main-color);
     color: var(--main-color);
 }
->>>>>>> cf7eeb4592d599da35c727ed878d4ce0c91b0489
