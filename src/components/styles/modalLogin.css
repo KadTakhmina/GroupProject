@@ -1,6 +1,5 @@
 .login-menu{
-  /* background: transparent;
-  color: white; */
+
 }
 .modal-body p {
   margin: 0;
@@ -14,11 +13,7 @@
  {
   margin-bottom: 20px;
 }
-.modal-body input {
-  height: 40px;
-  width: 300px;
-  padding: 5px;
-}
+
 .button {
   display: block;
 }

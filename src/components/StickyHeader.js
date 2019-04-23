@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 
 import User from "./User";
 import userPhoto from "../img/user.svg"
@@ -17,6 +17,10 @@ class StickyHeader extends Component {
   }
 
   render() {
+    const active = {
+      borderBottom:"3px solid var(--main-color)",
+    color: "var(--main-color)",
+    }
     return (
      
       <div className="StickyHeader ">
@@ -29,35 +33,27 @@ class StickyHeader extends Component {
         </button>
         <div class="collapse navbar-collapse menu" id="navbarSupp{ortedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <Link class="nav-link link headerLinks activeHeaderLinks" to="/">Main </Link>
+            <li class="nav-item ">
+              <NavLink exact class="nav-link link headerLinks  " activeStyle = {active} to="/">Главная </NavLink>
             </li>
             <li class="nav-item">
-              <Link class="nav-link link  headerLinks" to="/">Hotels</Link>
+              <NavLink exact  class="nav-link link  headerLinks  " activeStyle = {active}  to="/restauranRatings">Рейтинги</NavLink>
             </li>
             <li class="nav-item">
-              <Link class="nav-link link  headerLinks" to="/restauranRatings">Restaurans</Link>
+              <NavLink class="nav-link link  headerLinks" activeStyle = {active} activeClassName  = "active" to="/NewsPage">Новости</NavLink>
             </li>
-            {/* <li class="nav-item">
-              <Link class="nav-link link" to="/">Развлечения</Link>
-            </li> */}
-            {/* <li class="nav-item"> */}
-              {/* <Link class="nav-link link" to="/">Услуги</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link link" to="/">Курсы</Link>
-            </li> */}
+           
             <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle link text-white" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              More
+              <Link class="nav-link dropdown-toggle link text-white" to="/" id="navbarDropdown" activeStyle = {active} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Еще
               </Link>
               <div class="dropdown-menu headerDropDown" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item link headerDropItem" to="/">Развлечения</Link>
-                <Link class="dropdown-item link headerDropItem" to="/">Услуги</Link>
-                <Link class="dropdown-item link headerDropItem" to="/">Курсы</Link>
-                <Link class="dropdown-item link headerDropItem" to="/">Подробнее</Link>
-                <Link class="dropdown-item link headerDropItem" to="/">Отзывы</Link>
-                <Link class="dropdown-item link headerDropItem" to="/">О нас</Link>
+                <NavLink class="dropdown-item link headerDropItem" to="/">Развлечения</NavLink>
+                <NavLink class="dropdown-item link headerDropItem" to="/">Услуги</NavLink>
+                <NavLink class="dropdown-item link headerDropItem" to="/">Курсы</NavLink>
+                <NavLink class="dropdown-item link headerDropItem" to="/">Подробнее</NavLink>
+                <NavLink class="dropdown-item link headerDropItem" to="/">Отзывы</NavLink>
+                <NavLink class="dropdown-item link headerDropItem" to="/">О нас</NavLink>
               </div>
             </li>
           </ul> 

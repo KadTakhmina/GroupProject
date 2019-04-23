@@ -28,19 +28,19 @@ class User extends Component {
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Вход</h5>
+                <h5 class="modal-title modalTitles" id="exampleModalLongTitle">Вход</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
-              <div class="modal-body">
+              </div>7
+              <div class="mod7al-body">
                 <div className="email"> 
                   <p> Ваш e-mail</p>
-                  <input id="username" name="username" required="required" type="text" placeholder="sitehere@gmail.com"/>
+                  <input id="username" name="username" required="true" type="text" placeholder="sitehere@gmail.com"/>
                 </div>
                 <div className="password"> 
                   <p> Ваш пароль </p>
-                  <input id="password" name="password" required="required" type="password" placeholder="например 123456" /> 
+                  <input id="password" name="password" required="true" type="password" placeholder="например 123456" /> 
                 </div>
                 <div class="keeplogin"> 
                   <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
@@ -60,7 +60,7 @@ class User extends Component {
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalScrollableTitle">Регистрация</h5>
+                <h5 class="modal-title modalTitles" id="exampleModalScrollableTitle">Регистрация</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -68,7 +68,7 @@ class User extends Component {
               <div class="modal-body">
                 <div className="login"> 
                   <p>Ваш логин</p>
-                  <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Username" />
+                  <input id="usernamesignup" name="usernamesignup" required="true" type="text" placeholder="Username" />
                 </div>
                 <div className="email"> 
                   <p> Ваш e-mail</p>

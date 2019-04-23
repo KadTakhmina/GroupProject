@@ -3,7 +3,6 @@ import React, { Component } from "react";
 // import User from "./User";
 // import userPhoto from "../img/user.svg"
 
-import "./styles/var.css";
 import "./styles/Categories.css";
 
 class Categories extends Component {

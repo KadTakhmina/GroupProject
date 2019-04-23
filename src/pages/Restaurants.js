@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel,BgCarousel,Description} from "../components";
+import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel,BgCarousel,Description,FeedbackForm} from "../components";
 
 
 class Restaurants extends Component {
   constructor() {
     super()
     this.state = {
-
         currentData:JSON.parse(localStorage.getItem("currentEdit")), 
     }
     
@@ -27,6 +26,9 @@ class Restaurants extends Component {
                     raiting = {this.state.currentData[0].raiting}
                     comments = {this.state.currentData[0].comments}
         /> 
+        <FeedbackForm name = {this.state.currentData[0].name}
+                      logo = {this.state.currentData[0].logo}
+        />
          <Map/>
         <CommentCarousel comments = {this.state.currentData[0].comments}/>
         <SimilarPlace  />

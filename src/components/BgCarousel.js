@@ -10,11 +10,11 @@ class BgCarousel extends Component {
     const {album} = this.props;
     const galleryCarousel = album.map(g => {
       return (<div class="carousel-item active">
-               <img src={g} class="d-block w-100 img" alt="..."/>
+               <img src={g} class="d-block w-100 img-fluid" alt="..."/>
              </div>)
     })
     return (
-      <div id="carouselExampleControls " class="carousel slide " data-ride="carousel">
+      <div id="carouselExampleControls " class="carousel slide container-fluid " data-ride="carousel">
           <div class="carousel-inner">
             {galleryCarousel}
           </div>
