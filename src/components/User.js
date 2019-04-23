@@ -15,8 +15,7 @@ class User extends Component {
     return (
       <div class="dropdown">
         <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           <Button val = "Войти"/>
-           
+           <Button val = "Войти"/>     
         </a>
         <div class="dropdown-menu loginDropMenu" aria-labelledby="dropdownMenuLink">
           <p class="dropdown-item userDropDown" to="/">{`${name}  ${lastName}`}</p>
@@ -36,14 +35,14 @@ class User extends Component {
               <div class="modal-body">
                 <div className="email"> 
                   <p> Ваш e-mail</p>
-                  <input id="username" name="username" required="true" type="text" placeholder="sitehere@gmail.com"/>
+                  <input id="username" name="username" required="true" type="text" placeholder="email@gmail.com"/>
                 </div>
                 <div className="password"> 
                   <p> Ваш пароль </p>
-                  <input id="password" name="password" required="true" type="password" placeholder="например 123456" /> 
+                  <input id="password" name="password" required="true" type="password" placeholder="Пароль" /> 
                 </div>
                 <div class="keeplogin"> 
-                  <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+                  <input type="checkbox" name="loginkeeping" id="loginkeeping"  /> 
                   <label for="loginkeeping">Запомнить меня</label>
                 </div>
                 
@@ -55,7 +54,7 @@ class User extends Component {
             </div>
           </div>
         </div>
-
+//registration
         <div class="modal fade" id="exampleModalScrollable" tabindex="-2" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -66,27 +65,13 @@ class User extends Component {
                 </button>
               </div>
               <div class="modal-body">
-                <div className="login"> 
-                  <p>Ваш логин</p>
-                  <input id="usernamesignup" name="usernamesignup" required="true" type="text" placeholder="Username" />
+              <form>
+                <label></label>
+              <div class="modal-body">
                 </div>
-                <div className="email"> 
-                  <p> Ваш e-mail</p>
-                  <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="sitehere@gmail.com"/> 
-                </div>
-                <div className="password"> 
-                  <p>Ваш пароль </p>
-                  <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="123456"/>
-                </div>
-                <div className="confirm"> 
-                  <p>Подтвердите ваш пароль </p>
-                  <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="123456"/>
-                </div>
-              </div>
-              <div class="modal-footer button">
-                <p class="btn" ><Button val="Продолжить регистрацию"/></p>
-                
-              </div>
+              </form>
+              </div> 
+
             </div>
           </div>
         </div>

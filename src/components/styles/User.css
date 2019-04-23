@@ -1,4 +1,3 @@
-
 .User div {
     background: var(--main-color);
     position: absolute;
@@ -8,16 +7,16 @@
     padding: 10px;
     border-radius: 5px;
 }
-.loginDropMenu{
+
+.loginDropMenu {
     padding: 0;
 }
+
 .loginDropMenu {
     background: var(--main-color);
 }
+
 .userDropDown {
     color: #fff;
     font-weight: 600;
-}
-.modal-backdrop {    
-    display: none;    
 }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+
 
 import {Layout,AboutPlace, Map, SimilarPlace,CommentCarousel,BgCarousel,Description,FeedbackForm} from "../components";
 
@@ -8,13 +10,28 @@ class Restaurants extends Component {
     super()
     this.state = {
         currentData:JSON.parse(localStorage.getItem("currentEdit")), 
+        results: [],
     }
     
   }
   
+
+componentDidMount() {
+  axios.get(`https://api.myjson.com/bins/ce8eo`)
+    .then(res => {
+       
+      this.setState({ results: res.data});
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+}
+
+
   
   render() {
-
+    const results = this.state.results.filter(ce => ce.id !== this.state.currentData[0].id);
+    
     return (
       <Layout>
         <Description name = {this.state.currentData[0].name}
@@ -32,8 +49,8 @@ class Restaurants extends Component {
         />
          <Map/>
         <CommentCarousel comments = {this.state.currentData[0].comments}/>
-        <SimilarPlace album = {this.state.currentData[0].album }
-                      name = {this.state.currentData[0].name} />
+        <SimilarPlace  results = {results}/>
+        
 			</Layout>
     );
   }

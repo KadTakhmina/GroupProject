@@ -20,12 +20,13 @@ class StickyHeader extends Component {
     const active = {
       borderBottom:"3px solid var(--main-color)",
     color: "var(--main-color)",
+
+    
     }
     return (
      
       <div className="StickyHeader ">
-       <nav className="navbar navbar-expand-lg container" style={{"border-bottom": "1px solid rgba(255,255,255,.1)",
-    "background": "rgba(0,0,0,.1);"}} >
+       <nav className="navbar navbar-expand-lg container"  >
          <img style={{"width": "50px"}} src="https://image.flaticon.com/icons/svg/50/50565.svg" className = "logo"
         alt ="logo"/>
         <button class="navbar-toggler navBarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -25,7 +25,7 @@ class Description extends Component {
             <Link className = "d-inline-block mx-2" to = "/">Отзывы</Link>
             <a className = "d-inline-block mx-2" href = "https://www.instagram.com/marioristorante/">Instagram</a>
          </div>
-         <p className = "col-12  text">{description}</p>
+         <div className = "col-lg-12 col-md-12 col-12">{description}</div>
         </div>
       </div>
       
