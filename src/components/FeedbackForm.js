@@ -5,7 +5,7 @@ import 'react-rater/lib/react-rater.css';
 import  PT from "prop-types"
 
 import  Button from './Button';
-import './styles/FeedbackForm.css';
+import './styles/ModalForm.css';
 
 
 

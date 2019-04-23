@@ -13,7 +13,8 @@
     margin: .5em auto;
     border: 15px solid #444;
 }
-h3 {
+
+.CommentCarousel h3 {
     color: var(--main-color);
 }
 

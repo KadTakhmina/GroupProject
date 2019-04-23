@@ -1,9 +1,10 @@
 .similarCards {
     margin: 5em 0;
-    height: 11em;
+    margin-top: 1em;
+    overflow: hidden;
 }
 
 .similarCards img {
-    width: 100%;
-    height: 100%;
+    width: 15em;
+    height: 10em;
 }
