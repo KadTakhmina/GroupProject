@@ -25,13 +25,15 @@ class Restaurants extends Component {
                     pricePerPerson = {this.state.currentData[0].pricePerPerson}
                     raiting = {this.state.currentData[0].raiting}
                     comments = {this.state.currentData[0].comments}
+                    phones = {this.state.currentData[0].phones}
         /> 
         <FeedbackForm name = {this.state.currentData[0].name}
                       logo = {this.state.currentData[0].logo}
         />
          <Map/>
         <CommentCarousel comments = {this.state.currentData[0].comments}/>
-        <SimilarPlace  />
+        <SimilarPlace album = {this.state.currentData[0].album }
+                      name = {this.state.currentData[0].name} />
 			</Layout>
     );
   }

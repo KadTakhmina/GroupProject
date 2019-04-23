@@ -10,3 +10,7 @@
 .addressBlock {
     color: var(--main-color)
 }
+.address,
+.phones{
+   padding-right: 10px;
+}
