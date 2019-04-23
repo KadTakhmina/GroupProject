@@ -14,19 +14,18 @@ class SimilarPlace extends Component {
         
       return(
       <div key = {i.id} className = "col col-lg-3 col-md-3 col-6 similarCards">
-            
-              <img className = "img-fluid" alt = "similars"
-                 src = {i.album[0]}/>
-
-            <Rater total={5} rating={i.raiting} interactive={false}>
-				    </Rater>
-            <p className = "similar-place-name">{`"${i.name}"`}</p>
+       <img className = "img-fluid" alt = "similars" src = {i.album[0]}/>
+       <div className="flexText">
+         <Rater className="stars" total={5} rating={i.raiting} interactive={false}>
+           </Rater>
+         <p className = "similar-place-name">{`"${i.name}"`}</p>
         </div>
+      </div>
       );
     });
     return (
-      <div className  = "container">
-      <p>Похожие на этот</p>
+      <div className  = "container similar">
+      <p className="title">Похожие на этот</p>
         <div className="row SimilarPlace ">
         
         {similar}
