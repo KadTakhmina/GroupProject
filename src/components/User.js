@@ -54,7 +54,6 @@ class User extends Component {
             </div>
           </div>
         </div>
-//registration
         <div class="modal fade" id="exampleModalScrollable" tabindex="-2" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">

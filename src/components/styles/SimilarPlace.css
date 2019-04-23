@@ -2,9 +2,20 @@
     margin: 5em 0;
     margin-top: 1em;
     overflow: hidden;
+    box-shadow: 0 0 1em .3em #ddd;
+    padding: 1em;
 }
 
 .similarCards img {
     width: 15em;
     height: 10em;
+    
+}
+.title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: blue;
+}
+.similar-place-name {
+    font-size: 1.3em;
 }
