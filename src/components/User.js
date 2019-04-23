@@ -84,7 +84,7 @@ class User extends Component {
                 </div>
               </div>
               <div class="modal-footer button">
-                <p class="btn"><Button val="Продолжить регистрацию"/></p>
+                <p class="btn" ><Button val="Продолжить регистрацию"/></p>
                 
               </div>
             </div>

@@ -23,7 +23,7 @@ class Description extends Component {
          <div className="col-lg-12 col-md-12 col-12  DescriptionNav" >
             <Link className = "d-inline-block mx-2" to = "/"><Button val = {this.state.btn}/></Link>
             <Link className = "d-inline-block mx-2" to = "/">Отзывы</Link>
-            <a className = "d-inline-block mx-2" href = "https://www.instagram.com/sonnetinsurance/">Instagram</a>
+            <a className = "d-inline-block mx-2" href = "https://www.instagram.com/marioristorante/">Instagram</a>
          </div>
          <p className = "col-12  text">{description}</p>
         </div>

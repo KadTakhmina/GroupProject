@@ -3,7 +3,7 @@ import './App.css';
 import  { Route } from 'react-router';
 import { BrowserRouter,Switch } from 'react-router-dom';
 import { createBrowserHistory} from 'history';
-import {SearchPage,Restaurants,RaitingsPage,ReviewPage,LoginPage} from './pages';
+import {SearchPage,Restaurants,RaitingsPage,ReviewPage,News} from './pages';
 
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
             <Route path="/viewPage" exact component={Restaurants} />
             <Route path="/restauranRatings" exact component={RaitingsPage} />
             <Route path="/ReviewPage" exact component={ReviewPage} />
+            <Route path="/News" exact component={News} />
           </Switch>
         </BrowserRouter>
       </div>
