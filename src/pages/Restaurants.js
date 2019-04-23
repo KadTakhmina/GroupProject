@@ -42,6 +42,7 @@ componentDidMount() {
                     pricePerPerson = {this.state.currentData[0].pricePerPerson}
                     raiting = {this.state.currentData[0].raiting}
                     comments = {this.state.currentData[0].comments}
+                    phones = {this.state.currentData[0].phones}
         /> 
         <FeedbackForm name = {this.state.currentData[0].name}
                       logo = {this.state.currentData[0].logo}

@@ -22,8 +22,8 @@ class AboutPlace extends Component {
               <span class = "place">Ресторан</span>
               <br/>
             <div class = "addressBlock">
-                <Link to = "/" className = "d-block"><span><i class="fas fa-map-marker-alt"></i>  пр. Чынгыза Айтматова 3, ул.Балтагулова</span></Link>
-                <Link  className = "d-block"><i class="fa fa-phone"></i> Показать телефон</Link>
+                <Link to = "/" className = "d-block"><span><i class="fas fa-map-marker-alt address"></i>пр. Чынгыза Айтматова, 3,  ул. Балтагулова</span></Link>
+                <Link  className = "d-block"><i class="fa fa-phone phones"></i>{phones}</Link>
             </div>
             <br/>
             <p class = "place-extra-info"><b>Средний счёт на человека:</b> {pricePerPerson}</p>
@@ -41,6 +41,8 @@ AboutPlace.propTypes = {
   pricePerPerson: PT.string.isRequired,
   raiting: PT.string.isRequired,
   comments: PT.array.isRequired,
+  phones: PT.string.isRequired,
+
 }
 
 export default AboutPlace;

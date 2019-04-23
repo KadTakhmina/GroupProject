@@ -31,8 +31,8 @@ class User extends Component {
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>7
-              <div class="mod7al-body">
+              </div>
+              <div class="modal-body">
                 <div className="email"> 
                   <p> Ваш e-mail</p>
                   <input id="username" name="username" required="true" type="text" placeholder="email@gmail.com"/>

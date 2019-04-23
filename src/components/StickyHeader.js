@@ -41,7 +41,7 @@ class StickyHeader extends Component {
               <NavLink exact  class="nav-link link  headerLinks  " activeStyle = {active}  to="/restauranRatings">Рейтинги</NavLink>
             </li>
             <li class="nav-item">
-              <NavLink class="nav-link link  headerLinks" activeStyle = {active} activeClassName  = "active" to="/NewsPage">Новости</NavLink>
+              <NavLink class="nav-link link  headerLinks" activeStyle = {active} activeClassName  = "active" to="/News">Новости</NavLink>
             </li>
            
             <li class="nav-item dropdown">
