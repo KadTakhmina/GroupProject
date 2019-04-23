@@ -24,7 +24,7 @@ class SimilarPlace extends Component {
       );
     });
     return (
-      <div className  = "container">
+      <div className  = "container similar">
       <p className="title">Похожие на этот</p>
         <div className="row SimilarPlace ">
         
