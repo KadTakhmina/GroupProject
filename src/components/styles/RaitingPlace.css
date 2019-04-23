@@ -1,8 +1,13 @@
-.RaitingPlace {
-    color: var(--main-color);
-    margin-left: 15%;
-}
-
-.RaitingPlace h5 {
-    color: #000;
-}
+    .RaitingPlace {
+        color: var(--main-color);
+        margin-left: 15%;
+    }
+    
+    .RaitingPlace h5 {
+        color: #000;
+    }
+    
+    .odomemterCount {
+        font-size: 3em;
+        font-weight: 600;
+    }
