@@ -1,5 +1,5 @@
 import React, { Component ,Fragment } from 'react';
-import { Layout,MainInput,VideoBg, Categories, Header, Heading} from "../components";
+import { Layout,VideoBg, Categories, Header, Heading} from "../components";
 import '../components/styles/SearchPage.css';
 
 
@@ -12,6 +12,7 @@ class SearchPage extends Component {
       <Layout> 
         <Header/>
         <Heading/>
+        <Categories/>
       </Layout>
       </Fragment>
       
