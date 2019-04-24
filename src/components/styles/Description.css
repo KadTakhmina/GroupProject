@@ -1,6 +1,6 @@
 .Description {
     margin-top: 4em;
-    margin-bottom: 4em;
+    margin-bottom: 1.7em;
 }
 
 .DescriptionNav {
@@ -13,3 +13,11 @@
 .img {
     height: 400px;
 }
+.textAbout {
+    margin-top: 2em;
+    /* text-shadow: -1px 0px #000,
+                 0 1px 0 #444; */
+
+    text-indent:3em;
+    font-style: italic
+    }
