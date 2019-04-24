@@ -13,11 +13,9 @@
 .img {
     height: 400px;
 }
+
 .textAbout {
     margin-top: 2em;
-    /* text-shadow: -1px 0px #000,
-                 0 1px 0 #444; */
-
-    text-indent:3em;
+    text-indent: 3em;
     font-style: italic
-    }
+}

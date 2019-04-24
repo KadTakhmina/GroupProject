@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 
 import {Layout,FeedbackForm} from "../components";
+import '../components/styles/Feedbacks.css';
+
 
 
 class Feedbacks extends Component {
@@ -21,9 +23,10 @@ class Feedbacks extends Component {
     
     return (
       <Layout>
-      <div className = "Feedbacks container">
-        <h2>Отзывы</h2>
-        <p><Link data-toggle="modal" data-target="#exampleModal">Оставить отзыв</Link></p>
+      <div className = "Feedbacks container-fluid">
+          <div className = "row">
+            
+          </div>
       </div>
         
 			</Layout>

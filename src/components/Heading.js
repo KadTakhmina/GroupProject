@@ -16,7 +16,7 @@ class Heading extends Component {
           mvdsklvmskdlmvk s dmkm mkvmsd kmvksdmvkd mkvdmskvsd vmdksmvlskd
           ,vdslvsdm cskm cmdkmsd vmdk dkmfs cvkdsdkmvksdmsfdmvmds vdksv 
       </p>
-      {/* <br/><br/><br/><br/><br/><br/><br/><br/> */}
+      
       <button class="btn btn-primary">Click</button>
       </div>
     );

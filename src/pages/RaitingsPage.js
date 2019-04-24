@@ -5,6 +5,7 @@ import {Redirect} from "react-router-dom";
 
 import {Layout,RaitingNav,RaitingCard} from "../components";
 
+
 class RaitingsPage extends Component {
  constructor() {
 	 super()
