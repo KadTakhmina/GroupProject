@@ -6,9 +6,12 @@
     text-align: start;
     padding-left: 50px;
 }
-
+.placeInfoBlock .name {
+    margin-top: 20px;
+}
 .addressBlock {
-    color: var(--main-color)
+    color: var(--main-color);
+    margin-top: 20px;
 }
 .address,
 .phones{

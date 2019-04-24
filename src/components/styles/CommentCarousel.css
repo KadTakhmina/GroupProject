@@ -24,3 +24,6 @@
     border-radius: 50%;
     overflow: hidden;
 }
+.comment {
+    font-style: italic;
+}

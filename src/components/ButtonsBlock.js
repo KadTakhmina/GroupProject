@@ -19,7 +19,7 @@ class ButtonsBlock extends Component {
       <div className="ButtonsBlock row">
         <div class = "col col-7 placeButtonBlock">
           <Button val = {this.state.btn2}/>
-          <Button val = {this.state.btn1}/>
+          <a href="https://www.instagram.com/explore/locations/1426815637368249/niko"><Button val = {this.state.btn1}/></a>
         </div>
         
       </div>

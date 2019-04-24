@@ -20,10 +20,10 @@ class CommentCarousel extends Component {
         <p className ="commentsOwnerPhoto"><img className= "img-fluid" src={comment.commenterPhoto} alt="commentsOwnerPhoto"/></p> 
         </div>
         <div className = " col-lg-7 col-md-7 col-12 ">
-        <Rater total={5} rating={comment.commenterStars} interactive={false}>
+        <Rater  total={5} rating={comment.commenterStars} interactive={false}>
         </Rater>
           <h3>{`${comment.commenterName}  ${comment.commenterLastName}`}</h3>
-          <p>{comment.commenterText}</p>
+          <p className="comment">{comment.commenterText}</p>
         </div>
           
         </div>)}
