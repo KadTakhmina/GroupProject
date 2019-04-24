@@ -1,5 +1,6 @@
 .carousel {
     z-index: -10;
     position: relative;
-    /* height: 25em; */
+    height: 15em;
+    /* width: 100em; */
 }
