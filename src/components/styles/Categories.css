@@ -6,5 +6,45 @@
 img {
     width: 100%;
     height: auto;
+    padding-right: 0;
+    padding-left: 0;
+    
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: border-box;
+    background-size: cover; */
   }
+  .Categories {
+    margin-top: 33%;
+  }
+  @media (max-width: 767px) {
+    .Categories {
+        margin-top: 0;
+    }
+}
+
+  img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
+    /* transition: opacity 225ms linear 225ms; */
+    /* opacity: 1;
+    background: rgba(0,0,0,.66); */
+  }
+   img::before {
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0, 0.4);
+    width: 0;
+    height: 100%;
+    left: 50%;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   img:hover::before {
+    width: 100%;
+    left: 0;
+   }
   

@@ -20,8 +20,13 @@ export {default as CommentCarousel}  from "./CommentCarousel";
 export {default as BgCarousel}  from "./BgCarousel";
 export {default as VideoBg}  from "./VideoBg";
 export {default as Categories}  from "./Categories";
+<<<<<<< HEAD
 export {default as Main}  from "./Main";
 export {default as TypeIt}  from "./TypeIt";
+=======
+export {default as Heading}  from "./Heading";
+export {default as FeedbackForm}  from "./FeedbackForm";
+>>>>>>> 5dd43b0592e82b98098568c79f99043a58e77d83
 
 
 

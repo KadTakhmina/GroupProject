@@ -1,4 +1,3 @@
-
 .User div {
     background: var(--main-color);
     position: absolute;
@@ -10,5 +9,14 @@
 }
 
 .loginDropMenu {
+    padding: 0;
+}
+
+.loginDropMenu {
     background: var(--main-color);
+}
+
+.userDropDown {
+    color: #fff;
+    font-weight: 600;
 }

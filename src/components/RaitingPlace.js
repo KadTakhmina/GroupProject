@@ -3,10 +3,14 @@ import{Link} from "react-router-dom";
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
 import  PT from 'prop-types';
+import Odometer from "react-odometerjs";
+
+import "odometer/themes/odometer-theme-default.css";
 
 import './styles/var.css';
 import './styles/RaitingPlace.css';
-import Button from "./Button"
+import Button from "./Button";
+
 
 
 
@@ -17,8 +21,13 @@ class RaitingPlace extends Component {
     super() ;
     this.state = {
       isDisabled: true,
+      odometerValue: 0
     }
     this.toggleDisable = this.toggleDisable.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState({ odometerValue: this.props.commentsCount });
   }
 
 
@@ -33,7 +42,7 @@ class RaitingPlace extends Component {
   
 
     return (
-      <div className="RaitingPlace col col-4  text-left">
+      <div className="RaitingPlace col-lg-4 col-md-4 col-12   text-left">
             <h5>Рейтинг</h5>
             <Button isDisabled = {this.state.isDisabled}
                     toggleDisable = {this.toggleDisable}
@@ -47,11 +56,21 @@ class RaitingPlace extends Component {
 				  </Rater>
           </div>
         <div class = "commentBlock">
-        <h1 class = "commentAmount">{commentsCount}</h1>
+        <div className = "odomemterCount">
+        <Odometer   selector = ""
+                    animation="count"
+                    format="d"
+                    duration={ 1000 }
+                    value={ this.state.odometerValue }
+                />
+        </div>
+        
+
         <p>отзывов</p>
         <Rater total={5} rating={0}  className = "stars">
 				</Rater>
-          <p><Link to = "/ReviewPage">Оставить отзыв</Link></p>
+          <p><Link data-toggle="modal" data-target="#exampleModal">Оставить отзыв</Link></p>
+          
    
     </div>
       </div>
