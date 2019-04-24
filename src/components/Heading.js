@@ -10,14 +10,16 @@ class Heading extends Component {
   render() {
     return (
       <div className="Heading container col-12">
-      <h1>Heading</h1>
-      <p>Lorem mvksm fndjsfn vdkfm vdskvn sdkfsk cskdf
-          mdkmc dslkvm sdkvmksdmvksdmgf vksdmvs vmdksmvlskd vmdskl
-          mvdsklvmskdlmvk s dmkm mkvmsd kmvksdmvkd mkvdmskvsd vmdksmvlskd
-          ,vdslvsdm cskm cmdkmsd vmdk dkmfs cvkdsdkmvksdmsfdmvmds vdksv 
+      <div class="heading">
+      <h1 class="text-white">Что вы ищете?</h1>
+      <p class="text-white">Lorem mvksm fndjsfn vdkfm vdskvn sdkfsk cskdf
       </p>
-      {/* <br/><br/><br/><br/><br/><br/><br/><br/> */}
-      <button class="btn btn-primary">Click</button>
+      <div class="arrow-btn">
+      <div class="arrow bounce">
+  <a class="fa fa-arrow-down fa-2x" href="#"></a>
+</div>
+      </div>
+         </div>
       </div>
     );
   }
