@@ -3,7 +3,7 @@
   
 }
 .news h1 {
-  color: blue;
+  color: var(--main-color);
 }
 .newsDiv{
   display: flex;
