@@ -4,7 +4,6 @@ import '../components/styles/SearchPage.css';
 
 
 class SearchPage extends Component {
- 
   render() {
     return (
       <Fragment>
@@ -15,10 +14,8 @@ class SearchPage extends Component {
         <Categories/>
       </Layout>
       </Fragment>
-      
     );
   }
 }
 
 export default SearchPage;
-

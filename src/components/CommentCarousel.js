@@ -23,7 +23,7 @@ class CommentCarousel extends Component {
         <Rater  total={5} rating={comment.commenterStars} interactive={false}>
         </Rater>
           <h3>{`${comment.commenterName}  ${comment.commenterLastName}`}</h3>
-          <p className="comment">{comment.commenterText}</p>
+          <p  className="comment">{comment.commenterText}</p>
         </div>
           
         </div>)}
