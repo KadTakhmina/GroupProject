@@ -56,17 +56,17 @@ class RaitingPlace extends Component {
 				  </Rater>
           </div>
         <div class = "commentBlock">
-        <div className = "odomemterCount">
-        <Odometer   selector = ""
-                    animation="count"
-                    format="d"
-                    duration={ 1000 }
-                    value={ this.state.odometerValue }
-                />
+        <div className="flexRaiting">
+            <div className = "odomemterCount">
+            <Odometer   selector = ""
+                        animation="count"
+                        format="d"
+                        duration={ 1000 }
+                        value={ this.state.odometerValue }
+                    />
+            </div>
+            <p>отзывов</p>
         </div>
-        
-
-        <p>отзывов</p>
         <Rater total={5} rating={0}  className = "stars">
 				</Rater>
           <p><Link data-toggle="modal" data-target="#exampleModal">Оставить отзыв</Link></p>
