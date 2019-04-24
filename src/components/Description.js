@@ -28,7 +28,7 @@ class Description extends Component {
          <h1 className="col-lg-12 col-md-12 col-10  text-center ">{`${name}`}</h1>
          <div className="col-lg-12 col-md-12 col-12  DescriptionNav" >
             <Link className = "d-inline-block mx-2" to = "/"><Button val = {this.state.btn}/></Link>
-            <Link className = "d-inline-block mx-2" to = "/">Отзывы</Link>
+            <Link className = "d-inline-block mx-2" to = "/Feedbacks">Отзывы</Link>
             <a className = "d-inline-block mx-2" href = "https://www.instagram.com/marioristorante/">Instagram</a>
          </div>
          <div className = "textAbout col-lg-12 col-md-12 col-12">{description}</div>

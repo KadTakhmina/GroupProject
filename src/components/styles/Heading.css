@@ -1,0 +1,50 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 560px;
+  text-align: center;
+  width: 500px;
+  flex-direction: column;
+}
+.heading h1 {
+  font-size: 3.7rem;
+  margin-top: 40%;
+  font-weight: 600;
+}
+
+ 
+.heading h1::selection,
+.heading h1:-moz-selection {
+  background: #fff2a8;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.arrow {
+  text-align: center;
+  /* margin-bottom: 15%; */
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
