@@ -17,6 +17,7 @@ class SearchPage extends Component {
         <Layout>
           {/* <Header /> */}
           <Heading />
+          <Categories/>
         </Layout>
       </Fragment>
     );
