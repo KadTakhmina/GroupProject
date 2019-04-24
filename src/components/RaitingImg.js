@@ -13,6 +13,7 @@ class RaitingImg extends Component {
 		const {resultsImg,commentsCount,resultsName,goToDescription} = this.props;
     return (
 			<div className="RaitingImg 	 col-lg-6 col-sm-12 col-md-7">
+			
 				<img class = "w-100 h-100  resultsImg" alt = "results" src ={resultsImg}/>
 				<div className = "resultsHoverBlock img-fluid">
 					<p onClick = {goToDescription}  className = "resultsName">{`"${resultsName}"`}</p>

@@ -8,8 +8,8 @@ class BgCarousel extends Component {
   
   render() {
     const {album} = this.props;
-    const galleryCarousel = album.map(g => {
-      return (<div class="carousel-item active">
+    const galleryCarousel = album.map(( g,index) => {
+      return (<div class="carousel-item active" key = {index}>
                <img src={g} class="d-block w-100 img-fluid" alt="..."/>
              </div>)
     })
