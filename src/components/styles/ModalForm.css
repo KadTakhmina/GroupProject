@@ -1,9 +1,17 @@
-.feedbackPlace {}
-
 .modalTitles {
     text-align: center;
     width: 100%;
     font-weight: 600;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    padding: 1em;
+    border-radius: 0;
+    background: #fff;
 }
 
 .feedbackPlace .feedbackLogo {
@@ -18,10 +26,15 @@
 
 label {
     font-weight: 600;
+    margin: 1em 0;
 }
 
 .FormInputs {
     width: 100%;
+    border: none;
+    background: #fff;
+    padding: .3em .5em;
+    border-radius: .3em;
 }
 
 .feedbackText {
