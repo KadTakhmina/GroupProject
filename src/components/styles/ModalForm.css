@@ -15,9 +15,11 @@
 }
 
 .feedbackPlace .feedbackLogo {
-    width: 7em;
-    height: 7em;
+    width: 10em;
+    height: 10em;
     margin-right: 1em;
+    overflow: hidden;
+    text-align: center;
 }
 
 .modal-backdrop {
