@@ -2,5 +2,12 @@
     z-index: -10;
     position: relative;
     height: 15em;
+    border: 1px solid;
+    border-radius: 10%;
+   
+
     /* width: 100em; */
+}
+.imgContainer {
+    
 }

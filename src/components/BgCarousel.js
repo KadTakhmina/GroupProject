@@ -11,7 +11,7 @@ class BgCarousel extends Component {
     return (
       <Slider>
         {album.map((g, index) => <div key={index} className = "CommentCarousel row text-center ">
-        <div className = "col-lg-12 col-md-12 col-12 ">
+        <div className = " imgContainer col-lg-12 col-md-12 col-12 ">
         <img className= " carousel img-fluid" src={album[index]} alt="placePhoto"/>
         </div>
           
