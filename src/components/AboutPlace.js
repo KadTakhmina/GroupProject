@@ -12,7 +12,7 @@ import './styles/AboutPlace.css';
 
 class AboutPlace extends Component {
   render() {
-    const {name,pricePerPerson,comments,raiting,address,phones} = this.props;
+    const {name,pricePerPerson,comments,raiting,phones} = this.props;
   
     return (
       <div className="AboutPlace container">     

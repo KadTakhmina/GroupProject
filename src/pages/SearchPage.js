@@ -9,7 +9,6 @@ class SearchPage extends Component {
     return (
       <Fragment>
         <VideoBg/>
-        {/* <div className="cover"></div>  */}
       <Layout> 
         <Header/>
         <Heading/>

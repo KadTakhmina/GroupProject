@@ -36,13 +36,17 @@ class User extends Component {
               <label htmlFor=""  className = "w-100 d-block">Введите имя
                 <input className = "FormInputs" type="text" required placeholder = "Ваше имя"/>
               </label>
-              <label htmlFor=""  className = "w-100 d-block">Введите email
-                <input className = "FormInputs" type="email" placeholder = "Ваш email" required/>
-              </label>
               
               <label htmlFor="" className = "w-100 d-block">Ваш пароль
                 <input className = "FormInputs" type="password"placeholder ="Ваш пароль" required/>
               </label>
+              <p className = "d-flex justify-content-between">
+                <Link to ="/">Забыли пароль?</Link>
+                <Link className = "d-block " data-toggle="modal" data-target="#exampleModalScrollable">Регистрация</Link>
+
+              </p>
+
+              
           <Button val = "Войти"/>
               </form>
                 
@@ -70,7 +74,7 @@ class User extends Component {
               <label htmlFor="" className = "w-100 d-block">Ваш пароль
                 <input className = "FormInputs" type="password"placeholder ="Ваш пароль" required/>
               </label>
-          <Button val = "Регистрация"/>
+          <Button val = "Зарегистрироваться"/>
               </form>
               </div> 
 

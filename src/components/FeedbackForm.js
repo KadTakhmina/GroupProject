@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import  { Link } from 'react-router-dom';
+import  { Link } from 'react-router-dom';
 import Rater from 'react-rater';
 import 'react-rater/lib/react-rater.css';
 import  PT from "prop-types"
@@ -24,7 +24,7 @@ class FeedbackForm extends Component {
         </button>
       </div>
       <div class="modal-body">
-        <form action="">
+      <form action="">
         <div className = "feedbackPlace m-2  d-flex  align-items-center">
           <div className = "feedbackLogo"><img src={logo} alt="LOGO"/></div>
           <h3>{name}</h3>
@@ -45,7 +45,8 @@ class FeedbackForm extends Component {
           Что мы должны улучшить или поменять
           <textarea name="feedbackText" className = "feedbackText"></textarea>
           </label>
-        <Button val = "Отправить"/>
+          <Link to = "/Feedbacks"><Button val = "Отправить"/></Link>
+        
         </form>
       </div>
     </div>

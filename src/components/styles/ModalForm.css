@@ -32,9 +32,14 @@ label {
 .FormInputs {
     width: 100%;
     border: none;
-    background: #fff;
-    padding: .3em .5em;
+    background: rgba(0, 0, 0, .5);
+    padding: .5em;
     border-radius: .3em;
+    color: #fff
+}
+
+.FormInputs::placeholder {
+    color: #fff;
 }
 
 .feedbackText {
