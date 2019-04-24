@@ -4,7 +4,7 @@ import  PT from "prop-types"
 
 import  Button from './Button';
 import './styles/User.css';
-import './styles/modalLogin.css';
+import './styles/ModalForm.css';
 
 
 class User extends Component {
@@ -26,48 +26,51 @@ class User extends Component {
         <div class="modal fade modalpage" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title modalTitles" id="exampleModalLongTitle">Вход</h5>
+            
+              <div class="modal-body">
+              <h5 class="modal-title modalTitles" id="exampleModalLongTitle">Вход</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
-              <div class="modal-body">
-                <div className="email"> 
-                  <p> Ваш e-mail</p>
-                  <input id="username" name="username" required="true" type="text" placeholder="email@gmail.com"/>
-                </div>
-                <div className="password"> 
-                  <p> Ваш пароль </p>
-                  <input id="password" name="password" required="true" type="password" placeholder="Пароль" /> 
-                </div>
-                <div class="keeplogin"> 
-                  <input type="checkbox" name="loginkeeping" id="loginkeeping"  /> 
-                  <label for="loginkeeping">Запомнить меня</label>
-                </div>
+              <form>
+              <label htmlFor=""  className = "w-100 d-block">Введите имя
+                <input className = "FormInputs" type="text" required placeholder = "Ваше имя"/>
+              </label>
+              <label htmlFor=""  className = "w-100 d-block">Введите email
+                <input className = "FormInputs" type="email" placeholder = "Ваш email" required/>
+              </label>
+              
+              <label htmlFor="" className = "w-100 d-block">Ваш пароль
+                <input className = "FormInputs" type="password"placeholder ="Ваш пароль" required/>
+              </label>
+          <Button val = "Войти"/>
+              </form>
                 
               </div>
-              <div class="modal-footer button">
-                <p class="btn" data-toggle="modal" data-target="#exampleModalLong"><Button val="Войти"/></p>
-                
-              </div>
+             
             </div>
           </div>
         </div>
-        <div class="modal fade" id="exampleModalScrollable" tabindex="-2" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title modalTitles" id="exampleModalScrollableTitle">Регистрация</h5>
+        <div class="modal fade " id="exampleModalScrollable" tabindex="-2" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable " role="document">
+            <div class="modal-content ">
+              <div class="modal-body ">
+              <h5 className="modalTitles" id="exampleModalScrollableTitle">Регистрация</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
-              <div class="modal-body">
               <form>
-                <label></label>
-              <div class="modal-body">
-                </div>
+              <label htmlFor=""  className = "w-100 d-block">Введите имя
+                <input className = "FormInputs" type="text" placeholder = "Ваше имя" required/>
+              </label>
+              <label htmlFor=""  className = "w-100 d-block">Введите email
+                <input className = "FormInputs" type="email" placeholder = "Ваш email" required/>
+              </label>
+              
+              <label htmlFor="" className = "w-100 d-block">Ваш пароль
+                <input className = "FormInputs" type="password"placeholder ="Ваш пароль" required/>
+              </label>
+          <Button val = "Регистрация"/>
               </form>
               </div> 
 
