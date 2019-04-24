@@ -21,7 +21,7 @@ export {default as BgCarousel}  from "./BgCarousel";
 export {default as VideoBg}  from "./VideoBg";
 export {default as Heading}  from "./Heading";
 export {default as FeedbackForm}  from "./FeedbackForm";
-export {default as Categories}  from "./Categories";
+// export {default as Categories}  from "./Categories";
 
 
 

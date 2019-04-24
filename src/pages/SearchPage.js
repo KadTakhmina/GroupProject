@@ -3,7 +3,7 @@ import {
   Layout,
   // MainInput,
   VideoBg,
-  Categories,
+  // Categories,
   // Header,
   Heading
 } from "../components";
@@ -17,7 +17,7 @@ class SearchPage extends Component {
         <Layout>
           {/* <Header /> */}
           <Heading />
-          <Categories/>
+          {/* <Categories/> */}
         </Layout>
       </Fragment>
     );
