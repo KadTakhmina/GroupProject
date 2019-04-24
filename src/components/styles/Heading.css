@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 550px;
+  height: 560px;
   text-align: center;
   width: 500px;
   flex-direction: column;
 }
 .heading h1 {
   font-size: 3.7rem;
-  margin-top: 50%;
+  margin-top: 40%;
   font-weight: 600;
 }
 
