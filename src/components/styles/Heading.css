@@ -21,7 +21,7 @@
 }
 
 a {
-  color: white;
+  color: var(--main-color);
   text-decoration: none;
 }
 .arrow {

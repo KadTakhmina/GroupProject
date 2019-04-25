@@ -1,0 +1,40 @@
+.category-img {
+    width: 100%;
+    height: 100%;
+}
+
+.blocks {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+/* .blocks:hover {
+    transform: scale(0.9);
+} */
+/* .Categories {
+    margin-top: 33%;
+} */
+
+.category-img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* .category-img::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    width: 0;
+    height: 100%;
+    left: 50%;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.category-img:hover::before {
+    width: 100%;
+    left: 0;
+} */
