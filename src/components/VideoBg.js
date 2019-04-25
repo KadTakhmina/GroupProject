@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles/VideoBg.css";
-import Video from "../img/video/Palm Springs Preferred Small Hotels - Promo Video.mp4" ;
+import Video from "../img/video/Diplomka.mp4" ;
 
 class VideoBg extends Component {
   constructor(props) {
