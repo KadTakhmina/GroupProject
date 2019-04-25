@@ -7,7 +7,7 @@ import "./styles/Heading.css";
 class Heading extends Component {
   render() {
     return (
-      <div className="Heading container col-12">
+      <div className="Heading container">
         <div class="heading">
           <h1 class="text-white">Что вы ищете?</h1>
           {/* <p class="text-white">

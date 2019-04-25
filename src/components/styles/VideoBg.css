@@ -8,6 +8,7 @@ body {
     z-index: -1000;
     /* height: 1000px; */
     background-size: cover;
+    width: 100%;
 }
 #background-video {
     width: 100%;
