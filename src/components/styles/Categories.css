@@ -78,7 +78,7 @@
 	min-height: 100%;
 	max-width: 100%;
     opacity: 0.8;
-
+    background-size: cover;
 }
 .grid figure figcaption {
 	padding: 2em;

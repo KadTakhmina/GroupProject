@@ -42,7 +42,7 @@ class Categories extends Component {
                   <h2>Отели</h2>
                   <p>Лучшие отели города</p>
                 </div>
-                <Link to="/">Увидеть больше</Link>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
@@ -60,7 +60,7 @@ class Categories extends Component {
                   <h2>Концеренции</h2>
                   <p>Конференц-залы отеля "Hyatt" помогут Вам безупречно провести мероприятие</p>
                 </div>
-                <Link to="/">Увидеть больше</Link>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
@@ -70,15 +70,15 @@ class Categories extends Component {
             <figure class="effect">
               <img
                 class="category-img"
-                src="https://i.mycdn.me/image?id=802956202454&t=0&plc=MOBILE&tkn=*gshcXQoMnMD_bLnwe5gx3C-lrPg"
+                src="https://s-ec.bstatic.com/images/hotel/max1280x900/138/138885035.jpg"
                 alt="hot"
               />
               <figcaption>
                 <div>
                   <h2>Отели на природе</h2>
-                  <p>отдохните от городской суеты в гармонии с природой!</p>
+                  {/* <p>отдохните от городской суеты в гармонии с природой!</p> */}
                 </div>
-                <Link to="/">Увидеть больше</Link>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
@@ -96,7 +96,7 @@ class Categories extends Component {
                   <h2>Заказ еды</h2>
                   <p>Доставка по всему городу</p>
                 </div>
-                <Link to="/">Увидеть больше</Link>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
@@ -115,7 +115,7 @@ class Categories extends Component {
                   <h2>Банкеты</h2>
                   <p>Мы поможем Вам найти самые крутые банкетные места</p>
                 </div>
-                <Link to="/">Увидеть больше</Link>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>

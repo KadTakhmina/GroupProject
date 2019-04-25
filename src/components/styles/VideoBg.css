@@ -14,21 +14,21 @@ body {
 }
 
 @media (min-aspect-ratio: 16/9) {
-    .VideoBg {
+    #background-video {
         width: 100%;
         height: auto;
     }
 } 
 
 @media (max-aspect-ratio: 16/9) {
-    .VideoBg {
+    #background-video {
         width: auto;
         height: 100%;
     }
 }
 
 @media (max-width: 767px) {
-    .VideoBg {
+    #background-video {
         width: auto;
         height: auto;
     }
