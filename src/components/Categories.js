@@ -65,24 +65,44 @@ class Categories extends Component {
             </figure>
           </div>
         </div>
-        <div class="blocks col-6">
+        {/* <div class="blocks col-6">
           <div class="grid">
             <figure class="effect">
               <img
                 class="category-img"
                 src="https://s-ec.bstatic.com/images/hotel/max1280x900/138/138885035.jpg"
                 alt="hot"
+                // style={{"height":"550px"}}
               />
               <figcaption>
                 <div>
                   <h2>Отели на природе</h2>
-                  {/* <p>отдохните от городской суеты в гармонии с природой!</p> */}
+                  <p>отдохните от городской суеты в гармонии с природой!</p>
+                </div>
+                <Link to="/restauranRatings">Увидеть больше</Link>
+              </figcaption>
+            </figure>
+          </div>
+        </div> */}
+        <div class="blocks col-6">
+          <div class="grid">
+            <figure class="effect">
+              <img
+                class="category-img"
+                src="https://supara.kg/wp-content/uploads/2017/06/7.yurt-big-05-600x400.jpg"
+                alt="res"
+              />
+              <figcaption>
+              <div>
+                  <h2>Банкеты</h2>
+                  <p>Мы поможем Вам найти самые крутые банкетные места</p>
                 </div>
                 <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
+
         <div class="blocks col-6">
           <div class="grid">
             <figure class="effect">
@@ -92,7 +112,7 @@ class Categories extends Component {
                 alt="res"
               />
               <figcaption>
-                <div>
+              <div>
                   <h2>Заказ еды</h2>
                   <p>Доставка по всему городу</p>
                 </div>
@@ -101,7 +121,27 @@ class Categories extends Component {
             </figure>
           </div>
         </div>
+
+
         <div class="blocks col-6">
+          <div class="grid">
+            <figure class="effect">
+              <img
+                class="category-img"
+                src="https://s-ec.bstatic.com/images/hotel/max1280x900/138/138885035.jpg"
+                alt="res"
+              />
+              <figcaption>
+              <div>
+                  <h2>Отели на природе</h2>
+                  <p>отдохните от городской суеты в гармонии с природой!</p>
+                </div>
+                <Link to="/restauranRatings">Увидеть больше</Link>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        {/* <div class="blocks col-6">
           <div class="grid">
             <figure class="effect">
               <img
@@ -119,7 +159,7 @@ class Categories extends Component {
               </figcaption>
             </figure>
           </div>
-        </div>
+        </div> */}
       </div>
     
     );

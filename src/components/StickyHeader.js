@@ -30,7 +30,7 @@ class StickyHeader extends Component {
             className="logo"
             alt="logo"
           />
-          <button
+          {/* <button
             class="navbar-toggler navBarToggler"
             type="button"
             data-toggle="collapse"
@@ -38,15 +38,19 @@ class StickyHeader extends Component {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            // style={{"position":"absolute"}}
           >
             <span class="navbar-toggler-icon" />
-          </button>
+          </button> */}
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style={{"color":"white"}}>Menu</span>
+  </button>
           <div
-            class="collapse navbar-collapse menu"
-            id="navbarSupp{ortedContent"
+            class="collapse navbar-collapse  "
+            id="navbarNav"
           >
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item ">
+            <ul class="navbar-nav">
+              <li class="nav-item">
                 <NavLink
                   exact
                   class="nav-link link headerLinks  "
@@ -122,6 +126,7 @@ class StickyHeader extends Component {
             photo={this.state.userPhoto}
           />
         </nav>
+        
       </div>
     );
   }
