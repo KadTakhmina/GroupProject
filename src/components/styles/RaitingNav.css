@@ -1,46 +1,45 @@
-    .RaitingNav {
-        margin: 0 0.5em;
-        height: 2em;
-        width: 10em;
-        background: var(--main-color);
-        padding: 0 1em;
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        font-weight: 600;
-        color: #fff;
-        transition: all 1s ease;
-         padding:0 .8em;
-    }
-    
-    .resultCategories {
-        display: none;
-        position: absolute;
-        background: var(--main-color);
-        width: 100%;
-        left: 0;
-        top: 95%;
-        z-index: 1;
-    }
-    
-    .openDropDown {
-        display: block;
-        transform:translateY(2px);
-        transition: all 5s ease;
-    }
-    
-    .resultCategories div {
-        padding: .8em;
-        cursor: pointer;
-    }
-    
-   
-    .selected {
-        border-radius: 5px;
-        line-height: 2em;
-    }
-    
-    .resultsCountText {
-        color: var(--main-color);
-        font-size: 20px;
-    }
+.RaitingNav {
+  margin: 0 0.5em;
+  height: 2em;
+  width: 10em;
+  background: var(--main-color);
+  padding: 0 1em;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transition: all 1s ease;
+  padding: 0 0.8em;
+}
+
+.resultCategories {
+  display: none;
+  position: absolute;
+  background: var(--main-color);
+  width: 100%;
+  left: 0;
+  top: 95%;
+  z-index: 1;
+}
+
+.openDropDown {
+  display: block;
+  transform: translateY(2px);
+  transition: all 5s ease;
+}
+
+.resultCategories div {
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+.selected {
+  border-radius: 5px;
+  line-height: 2em;
+}
+
+.resultsCountText {
+  color: var(--main-color);
+  font-size: 20px;
+}

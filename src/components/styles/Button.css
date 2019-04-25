@@ -1,17 +1,16 @@
 .Button {
-
-border: 1px solid var(--main-color);
-    margin: 10px;
-    font-weight: 600;
-    color: #fff;
+  border: 1px solid var(--main-color);
+  margin: 10px;
+  font-weight: 600;
+  color: #fff;
 }
 
 button.disabledButton {
-    background: #fff;
-    color: var(--main-color);
+  background: #fff;
+  color: var(--main-color);
 }
 
 button.activeButton {
-    background: var(--main-color);
-    color: #fff;
+  background: var(--main-color);
+  color: #fff;
 }

@@ -14,7 +14,6 @@
   font-weight: 600;
 }
 
- 
 .heading h1::selection,
 .heading h1:-moz-selection {
   background: #fff2a8;
