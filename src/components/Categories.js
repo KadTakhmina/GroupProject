@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component} from "react";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 // import User from "./User";
 // import userPhoto from "../img/user.svg"
@@ -12,25 +13,25 @@ class Categories extends Component {
         <div class="blocks col-6">
           {/* <img class="category-img" src="http://navat.com.kz/wp-content/uploads/2018/01/Navat-Almaty-16.jpg" alt="res"/></div> */}
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 src="http://navat.com.kz/wp-content/uploads/2018/01/Navat-Almaty-16.jpg"
                 alt="img12"
-                style={{ wdth: "100%" }}
+                style={{ "width": "100%" }}
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Рестораны</h2>
+                  <p>Самая вкусная еда</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/restauranRatings">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="blocks col-6">
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 class="category-img"
                 src="http://www.orionbishkek.com/images/uploads/8279cbe95dc8101a3c6bffc532db6fe0.jpg"
@@ -38,17 +39,17 @@ class Categories extends Component {
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Отели</h2>
+                  <p>Лучшие отели города</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="blocks col-6">
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 class="category-img"
                 src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/01/11/1725/Hyatt-Regency-Bishkek-P067-Exterior.jpg/Hyatt-Regency-Bishkek-P067-Exterior.4x3.jpg"
@@ -56,17 +57,17 @@ class Categories extends Component {
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Концеренции</h2>
+                  <p>Конференц-залы отеля "Hyatt" помогут Вам безупречно провести мероприятие</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="blocks col-6">
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 class="category-img"
                 src="https://i.mycdn.me/image?id=802956202454&t=0&plc=MOBILE&tkn=*gshcXQoMnMD_bLnwe5gx3C-lrPg"
@@ -74,17 +75,17 @@ class Categories extends Component {
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Отели на природе</h2>
+                  <p>отдохните от городской суеты в гармонии с природой!</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="blocks col-6">
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 class="category-img"
                 src="https://s26552.pcdn.co/wp-content/uploads/2017/11/supra.jpeg"
@@ -92,28 +93,29 @@ class Categories extends Component {
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Заказ еды</h2>
+                  <p>Доставка по всему городу</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>
         </div>
         <div class="blocks col-6">
           <div class="grid">
-            <figure class="effect-lily">
+            <figure class="effect">
               <img
                 class="category-img"
                 src="https://supara.kg/wp-content/uploads/2017/06/7.yurt-big-05-600x400.jpg"
                 alt="hot"
+                style={{"width":"100%"}}
               />
               <figcaption>
                 <div>
-                  <h2>Restaurants</h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Банкеты</h2>
+                  <p>Мы поможем Вам найти самые крутые банкетные места</p>
                 </div>
-                <a href="#">View more</a>
+                <Link to="/">Увидеть больше</Link>
               </figcaption>
             </figure>
           </div>

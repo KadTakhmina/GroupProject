@@ -10,9 +10,9 @@ class Heading extends Component {
       <div className="Heading container col-12">
         <div class="heading">
           <h1 class="text-white">Что вы ищете?</h1>
-          <p class="text-white">
+          {/* <p class="text-white">
             Lorem mvksm fndjsfn vdkfm vdskvn sdkfsk cskdf
-          </p>
+          </p> */}
           <div class="arrow bounce">
             <a class="fa fa-arrow-down fa-2x" href="#" />
           </div>
